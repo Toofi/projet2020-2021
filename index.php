@@ -24,7 +24,5 @@ if ($data === false) {
   $data = curl_exec($curl);
 }
 curl_close($curl);
-
-$result = json_decode($data,true);
-var_dump($result);
+echo($data);
 ?>

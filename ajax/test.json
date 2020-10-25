@@ -1,0 +1,3632 @@
+{
+	"numTabs": 38,
+	"tabs": [{
+			"n": "$$$",
+			"i": 0,
+			"id": "494d6edcfff008a20a71e03591a8bcbcbb5d3843c59c2fd22b0dd2a96db8f4c8",
+			"type": "CurrencyStash",
+			"hidden": false,
+			"selected": false,
+			"colour": {
+				"r": 221,
+				"g": 221,
+				"b": 221
+			},
+			"srcL": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoibCIsImMiOi0yMjM2OTYzfV0/839620a564/Stash_TabL.png",
+			"srcC": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoibSIsImMiOi0yMjM2OTYzfV0/e6a1df0898/Stash_TabL.png",
+			"srcR": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoiciIsImMiOi0yMjM2OTYzfV0/1cc0d93243/Stash_TabL.png"
+		},
+		{
+			"n": "dump",
+			"i": 1,
+			"id": "d2e1bea983bbbbb16d27c80f738140185a64cdda977f420ed303e5002ae76a1a",
+			"type": "QuadStash",
+			"hidden": false,
+			"selected": true,
+			"colour": {
+				"r": 99,
+				"g": 128,
+				"b": 0
+			},
+			"srcL": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoibCIsImMiOi0xMDI1NjM4NH1d/add36a62cf/Stash_TabL.png",
+			"srcC": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoibSIsImMiOi0xMDI1NjM4NH1d/bca6333c61/Stash_TabL.png",
+			"srcR": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoiciIsImMiOi0xMDI1NjM4NH1d/1e0dc0f0ab/Stash_TabL.png"
+		},
+		{
+			"n": "cr",
+			"i": 2,
+			"id": "0af94187b066c1e30b8b339dddc8040dc787c4fbfac56c1d72c7ff78f4daf985",
+			"type": "PremiumStash",
+			"hidden": false,
+			"selected": false,
+			"colour": {
+				"r": 99,
+				"g": 128,
+				"b": 0
+			},
+			"srcL": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoibCIsImMiOi0xMDI1NjM4NH1d/add36a62cf/Stash_TabL.png",
+			"srcC": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoibSIsImMiOi0xMDI1NjM4NH1d/bca6333c61/Stash_TabL.png",
+			"srcR": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoiciIsImMiOi0xMDI1NjM4NH1d/1e0dc0f0ab/Stash_TabL.png"
+		},
+		{
+			"n": "M",
+			"i": 3,
+			"id": "c8338ffffd231273351b396ae6804b44fa867bed2e05be61055b8caec1217ba5",
+			"type": "MapStash",
+			"hidden": false,
+			"selected": false,
+			"colour": {
+				"r": 50,
+				"g": 50,
+				"b": 50
+			},
+			"srcL": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoibCIsImMiOi0xMzQ4NzU2Nn1d/0ce8f75b7c/Stash_TabL.png",
+			"srcC": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoibSIsImMiOi0xMzQ4NzU2Nn1d/4470380632/Stash_TabL.png",
+			"srcR": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoiciIsImMiOi0xMzQ4NzU2Nn1d/b85f086896/Stash_TabL.png"
+		},
+		{
+			"n": "contracts",
+			"i": 4,
+			"id": "f89afd2e055816c79293cf26a61fbbf330287e4def6e4ff4f3b795be9fdb7e21",
+			"type": "PremiumStash",
+			"hidden": false,
+			"selected": false,
+			"colour": {
+				"r": 50,
+				"g": 50,
+				"b": 50
+			},
+			"srcL": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoibCIsImMiOi0xMzQ4NzU2Nn1d/0ce8f75b7c/Stash_TabL.png",
+			"srcC": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoibSIsImMiOi0xMzQ4NzU2Nn1d/4470380632/Stash_TabL.png",
+			"srcR": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoiciIsImMiOi0xMzQ4NzU2Nn1d/b85f086896/Stash_TabL.png"
+		},
+		{
+			"n": "frags",
+			"i": 5,
+			"id": "f6ef713a5c9a1c8ea8529a4126b9f9fc488566f5c783762d6d9d11b933d934ef",
+			"type": "PremiumStash",
+			"hidden": false,
+			"selected": false,
+			"colour": {
+				"r": 50,
+				"g": 50,
+				"b": 50
+			},
+			"srcL": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoibCIsImMiOi0xMzQ4NzU2Nn1d/0ce8f75b7c/Stash_TabL.png",
+			"srcC": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoibSIsImMiOi0xMzQ4NzU2Nn1d/4470380632/Stash_TabL.png",
+			"srcR": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoiciIsImMiOi0xMzQ4NzU2Nn1d/b85f086896/Stash_TabL.png"
+		},
+		{
+			"n": "rings",
+			"i": 6,
+			"id": "3c3ec3fac12bfb64ba580000d574c11a21696cee3e60fd50f025496ed5d5011a",
+			"type": "PremiumStash",
+			"hidden": false,
+			"selected": false,
+			"colour": {
+				"r": 255,
+				"g": 191,
+				"b": 128
+			},
+			"srcL": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoibCIsImMiOi0xNjUxMn1d/e5ec05f537/Stash_TabL.png",
+			"srcC": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoibSIsImMiOi0xNjUxMn1d/0bc9f829c7/Stash_TabL.png",
+			"srcR": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoiciIsImMiOi0xNjUxMn1d/7fff2b2983/Stash_TabL.png"
+		},
+		{
+			"n": "CARDS",
+			"i": 7,
+			"id": "ff0012885cfc76bd41e69631747b75855a196aa13cc7a624c4e881fa11388bf1",
+			"type": "DivinationCardStash",
+			"hidden": false,
+			"selected": false,
+			"colour": {
+				"r": 221,
+				"g": 221,
+				"b": 221
+			},
+			"srcL": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoibCIsImMiOi0yMjM2OTYzfV0/839620a564/Stash_TabL.png",
+			"srcC": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoibSIsImMiOi0yMjM2OTYzfV0/e6a1df0898/Stash_TabL.png",
+			"srcR": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoiciIsImMiOi0yMjM2OTYzfV0/1cc0d93243/Stash_TabL.png"
+		},
+		{
+			"n": "Essences",
+			"i": 8,
+			"id": "f33a295f5264fc81476c8a5e0ff9413810234eb26d03b11aa1544494021afb0f",
+			"type": "EssenceStash",
+			"hidden": false,
+			"selected": false,
+			"colour": {
+				"r": 221,
+				"g": 221,
+				"b": 221
+			},
+			"srcL": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoibCIsImMiOi0yMjM2OTYzfV0/839620a564/Stash_TabL.png",
+			"srcC": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoibSIsImMiOi0yMjM2OTYzfV0/e6a1df0898/Stash_TabL.png",
+			"srcR": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoiciIsImMiOi0yMjM2OTYzfV0/1cc0d93243/Stash_TabL.png"
+		},
+		{
+			"n": "Shop",
+			"i": 9,
+			"id": "854cbc67cc45133fec180c598af59a3077ee6c07c3534785d80b18647a423067",
+			"type": "PremiumStash",
+			"hidden": false,
+			"selected": false,
+			"colour": {
+				"r": 221,
+				"g": 221,
+				"b": 221
+			},
+			"srcL": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoibCIsImMiOi0yMjM2OTYzfV0/839620a564/Stash_TabL.png",
+			"srcC": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoibSIsImMiOi0yMjM2OTYzfV0/e6a1df0898/Stash_TabL.png",
+			"srcR": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoiciIsImMiOi0yMjM2OTYzfV0/1cc0d93243/Stash_TabL.png"
+		},
+		{
+			"n": "g",
+			"i": 10,
+			"id": "cab71abc0f36ca5f677c1f49a61dbfc0b1c2487189cd7fe6300f4980880d8438",
+			"type": "PremiumStash",
+			"hidden": false,
+			"selected": false,
+			"colour": {
+				"r": 99,
+				"g": 128,
+				"b": 0
+			},
+			"srcL": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoibCIsImMiOi0xMDI1NjM4NH1d/add36a62cf/Stash_TabL.png",
+			"srcC": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoibSIsImMiOi0xMDI1NjM4NH1d/bca6333c61/Stash_TabL.png",
+			"srcR": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoiciIsImMiOi0xMDI1NjM4NH1d/1e0dc0f0ab/Stash_TabL.png"
+		},
+		{
+			"n": "Jewels",
+			"i": 11,
+			"id": "f18643d1dc5838768176cd492873a67bbe29b05841aa193dca8e2821cddb5e18",
+			"type": "PremiumStash",
+			"hidden": false,
+			"selected": false,
+			"colour": {
+				"r": 255,
+				"g": 170,
+				"b": 0
+			},
+			"srcL": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoibCIsImMiOi0yMjAxNn1d/317f9d2d8c/Stash_TabL.png",
+			"srcC": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoibSIsImMiOi0yMjAxNn1d/c06c5980a6/Stash_TabL.png",
+			"srcR": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoiciIsImMiOi0yMjAxNn1d/9a7ac3c720/Stash_TabL.png"
+		},
+		{
+			"n": "fl",
+			"i": 12,
+			"id": "8a09d3f93dc1131216e6dc9ca18bdd629c5bfb81b9f9cb48f13290d04e5db713",
+			"type": "PremiumStash",
+			"hidden": false,
+			"selected": false,
+			"colour": {
+				"r": 50,
+				"g": 50,
+				"b": 50
+			},
+			"srcL": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoibCIsImMiOi0xMzQ4NzU2Nn1d/0ce8f75b7c/Stash_TabL.png",
+			"srcC": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoibSIsImMiOi0xMzQ4NzU2Nn1d/4470380632/Stash_TabL.png",
+			"srcR": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoiciIsImMiOi0xMzQ4NzU2Nn1d/b85f086896/Stash_TabL.png"
+		},
+		{
+			"n": "Legacy Maps",
+			"i": 13,
+			"id": "c66cd447ba79e6ae6516fbbe247a0b7d24247785613a4cc6f0a4bab481de632e",
+			"type": "PremiumStash",
+			"hidden": false,
+			"selected": false,
+			"colour": {
+				"r": 221,
+				"g": 221,
+				"b": 221
+			},
+			"srcL": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoibCIsImMiOi0yMjM2OTYzfV0/839620a564/Stash_TabL.png",
+			"srcC": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoibSIsImMiOi0yMjM2OTYzfV0/e6a1df0898/Stash_TabL.png",
+			"srcR": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoiciIsImMiOi0yMjM2OTYzfV0/1cc0d93243/Stash_TabL.png"
+		},
+		{
+			"n": "75+",
+			"i": 14,
+			"id": "41c8b0a1192eb34a26da2937096ba84a2f13a8a58d92f90412a1aa0aed1a2063",
+			"type": "PremiumStash",
+			"hidden": false,
+			"selected": false,
+			"colour": {
+				"r": 99,
+				"g": 128,
+				"b": 0
+			},
+			"srcL": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoibCIsImMiOi0xMDI1NjM4NH1d/add36a62cf/Stash_TabL.png",
+			"srcC": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoibSIsImMiOi0xMDI1NjM4NH1d/bca6333c61/Stash_TabL.png",
+			"srcR": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoiciIsImMiOi0xMDI1NjM4NH1d/1e0dc0f0ab/Stash_TabL.png"
+		},
+		{
+			"n": "Gems",
+			"i": 15,
+			"id": "6cb7728029cd294363b4b350878cd527c040689dfc98ec9eeb7e08bc825c75ce",
+			"type": "PremiumStash",
+			"hidden": false,
+			"selected": false,
+			"colour": {
+				"r": 99,
+				"g": 128,
+				"b": 0
+			},
+			"srcL": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoibCIsImMiOi0xMDI1NjM4NH1d/add36a62cf/Stash_TabL.png",
+			"srcC": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoibSIsImMiOi0xMDI1NjM4NH1d/bca6333c61/Stash_TabL.png",
+			"srcR": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoiciIsImMiOi0xMDI1NjM4NH1d/1e0dc0f0ab/Stash_TabL.png"
+		},
+		{
+			"n": "1",
+			"i": 16,
+			"id": "095456c2fb788e41ae86a9ef83827953164bed29b5d6d2466ce99bde8bde691b",
+			"type": "NormalStash",
+			"hidden": false,
+			"selected": false,
+			"colour": {
+				"r": 124,
+				"g": 84,
+				"b": 54
+			},
+			"srcL": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoibCIsImMiOi04NjI5MTk0fV0/10d10e4923/Stash_TabL.png",
+			"srcC": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoibSIsImMiOi04NjI5MTk0fV0/bc028daabc/Stash_TabL.png",
+			"srcR": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoiciIsImMiOi04NjI5MTk0fV0/6aa79009ee/Stash_TabL.png"
+		},
+		{
+			"n": "2",
+			"i": 17,
+			"id": "687d8c58126b1138c0276fec6b51a6ead5ca3957635f7af96eba70403609065e",
+			"type": "NormalStash",
+			"hidden": false,
+			"selected": false,
+			"colour": {
+				"r": 124,
+				"g": 84,
+				"b": 54
+			},
+			"srcL": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoibCIsImMiOi04NjI5MTk0fV0/10d10e4923/Stash_TabL.png",
+			"srcC": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoibSIsImMiOi04NjI5MTk0fV0/bc028daabc/Stash_TabL.png",
+			"srcR": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoiciIsImMiOi04NjI5MTk0fV0/6aa79009ee/Stash_TabL.png"
+		},
+		{
+			"n": "Uniques",
+			"i": 18,
+			"id": "df96a236edfe1b56d824870b103ada7457912ac38ea2dc66c8d4c036d51e108d",
+			"type": "PremiumStash",
+			"hidden": false,
+			"selected": false,
+			"colour": {
+				"r": 99,
+				"g": 128,
+				"b": 0
+			},
+			"srcL": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoibCIsImMiOi0xMDI1NjM4NH1d/add36a62cf/Stash_TabL.png",
+			"srcC": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoibSIsImMiOi0xMDI1NjM4NH1d/bca6333c61/Stash_TabL.png",
+			"srcR": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoiciIsImMiOi0xMDI1NjM4NH1d/1e0dc0f0ab/Stash_TabL.png"
+		},
+		{
+			"n": "Bazar",
+			"i": 19,
+			"id": "f453a32fe7ef53e6e15bfc10163e08caef7d0b5facf5349824f94961eadf06c8",
+			"type": "PremiumStash",
+			"hidden": false,
+			"selected": false,
+			"colour": {
+				"r": 99,
+				"g": 128,
+				"b": 0
+			},
+			"srcL": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoibCIsImMiOi0xMDI1NjM4NH1d/add36a62cf/Stash_TabL.png",
+			"srcC": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoibSIsImMiOi0xMDI1NjM4NH1d/bca6333c61/Stash_TabL.png",
+			"srcR": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoiciIsImMiOi0xMDI1NjM4NH1d/1e0dc0f0ab/Stash_TabL.png"
+		},
+		{
+			"n": "3",
+			"i": 20,
+			"id": "c73cecc5f28478a0df1cd341dbad6b704d3f7ec2ccea9bf2e43a7a973e63aa7c",
+			"type": "NormalStash",
+			"hidden": false,
+			"selected": false,
+			"colour": {
+				"r": 124,
+				"g": 84,
+				"b": 54
+			},
+			"srcL": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoibCIsImMiOi04NjI5MTk0fV0/10d10e4923/Stash_TabL.png",
+			"srcC": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoibSIsImMiOi04NjI5MTk0fV0/bc028daabc/Stash_TabL.png",
+			"srcR": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoiciIsImMiOi04NjI5MTk0fV0/6aa79009ee/Stash_TabL.png"
+		},
+		{
+			"n": "9",
+			"i": 21,
+			"id": "ef2ffb30b171222695f6a5e986cae3c5235165d596f6082765daad5635143413",
+			"type": "NormalStash",
+			"hidden": false,
+			"selected": false,
+			"colour": {
+				"r": 124,
+				"g": 84,
+				"b": 54
+			},
+			"srcL": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoibCIsImMiOi04NjI5MTk0fV0/10d10e4923/Stash_TabL.png",
+			"srcC": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoibSIsImMiOi04NjI5MTk0fV0/bc028daabc/Stash_TabL.png",
+			"srcR": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoiciIsImMiOi04NjI5MTk0fV0/6aa79009ee/Stash_TabL.png"
+		},
+		{
+			"n": "10",
+			"i": 22,
+			"id": "a6ddfd73bb7853ab00fc608d85dea16a7549046f1db04170352f4c601e2bd91b",
+			"type": "NormalStash",
+			"hidden": false,
+			"selected": false,
+			"colour": {
+				"r": 124,
+				"g": 84,
+				"b": 54
+			},
+			"srcL": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoibCIsImMiOi04NjI5MTk0fV0/10d10e4923/Stash_TabL.png",
+			"srcC": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoibSIsImMiOi04NjI5MTk0fV0/bc028daabc/Stash_TabL.png",
+			"srcR": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoiciIsImMiOi04NjI5MTk0fV0/6aa79009ee/Stash_TabL.png"
+		},
+		{
+			"n": "11",
+			"i": 23,
+			"id": "1c1fe9542504ea8bff86cb621fd49516dbb5b3ddc591632f3675996b47de8521",
+			"type": "NormalStash",
+			"hidden": false,
+			"selected": false,
+			"colour": {
+				"r": 124,
+				"g": 84,
+				"b": 54
+			},
+			"srcL": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoibCIsImMiOi04NjI5MTk0fV0/10d10e4923/Stash_TabL.png",
+			"srcC": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoibSIsImMiOi04NjI5MTk0fV0/bc028daabc/Stash_TabL.png",
+			"srcR": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoiciIsImMiOi04NjI5MTk0fV0/6aa79009ee/Stash_TabL.png"
+		},
+		{
+			"n": "13",
+			"i": 24,
+			"id": "d94eba25f1afd9456fe5b9553b8ef7e4a8492aadd22c2c60a7e0f85a801eed18",
+			"type": "NormalStash",
+			"hidden": false,
+			"selected": false,
+			"colour": {
+				"r": 124,
+				"g": 84,
+				"b": 54
+			},
+			"srcL": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoibCIsImMiOi04NjI5MTk0fV0/10d10e4923/Stash_TabL.png",
+			"srcC": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoibSIsImMiOi04NjI5MTk0fV0/bc028daabc/Stash_TabL.png",
+			"srcR": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoiciIsImMiOi04NjI5MTk0fV0/6aa79009ee/Stash_TabL.png"
+		},
+		{
+			"n": "Vide",
+			"i": 25,
+			"id": "a811be96f32981241a8bd93bcf8c2721390a2d153482518975d7da2160fbd38c",
+			"type": "PremiumStash",
+			"hidden": false,
+			"selected": false,
+			"colour": {
+				"r": 99,
+				"g": 128,
+				"b": 0
+			},
+			"srcL": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoibCIsImMiOi0xMDI1NjM4NH1d/add36a62cf/Stash_TabL.png",
+			"srcC": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoibSIsImMiOi0xMDI1NjM4NH1d/bca6333c61/Stash_TabL.png",
+			"srcR": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoiciIsImMiOi0xMDI1NjM4NH1d/1e0dc0f0ab/Stash_TabL.png"
+		},
+		{
+			"n": "Vide",
+			"i": 26,
+			"id": "a23a7c65b8e087aeefa7e32320d47f7f01cbbdb73469c076d2c3240cb8e2994c",
+			"type": "PremiumStash",
+			"hidden": false,
+			"selected": false,
+			"colour": {
+				"r": 99,
+				"g": 128,
+				"b": 0
+			},
+			"srcL": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoibCIsImMiOi0xMDI1NjM4NH1d/add36a62cf/Stash_TabL.png",
+			"srcC": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoibSIsImMiOi0xMDI1NjM4NH1d/bca6333c61/Stash_TabL.png",
+			"srcR": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoiciIsImMiOi0xMDI1NjM4NH1d/1e0dc0f0ab/Stash_TabL.png"
+		},
+		{
+			"n": "Vide",
+			"i": 27,
+			"id": "d8999589214738b2c4e977ff8c38dc067cdfee459f9fdfdbacd9312ad3e89019",
+			"type": "PremiumStash",
+			"hidden": false,
+			"selected": false,
+			"colour": {
+				"r": 99,
+				"g": 128,
+				"b": 0
+			},
+			"srcL": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoibCIsImMiOi0xMDI1NjM4NH1d/add36a62cf/Stash_TabL.png",
+			"srcC": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoibSIsImMiOi0xMDI1NjM4NH1d/bca6333c61/Stash_TabL.png",
+			"srcR": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoiciIsImMiOi0xMDI1NjM4NH1d/1e0dc0f0ab/Stash_TabL.png"
+		},
+		{
+			"n": "Vide",
+			"i": 28,
+			"id": "28da18f84a530595f86a3dcb8bffd4d36d7430f20d92527afc8ef0a76c62203e",
+			"type": "PremiumStash",
+			"hidden": false,
+			"selected": false,
+			"colour": {
+				"r": 99,
+				"g": 128,
+				"b": 0
+			},
+			"srcL": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoibCIsImMiOi0xMDI1NjM4NH1d/add36a62cf/Stash_TabL.png",
+			"srcC": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoibSIsImMiOi0xMDI1NjM4NH1d/bca6333c61/Stash_TabL.png",
+			"srcR": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoiciIsImMiOi0xMDI1NjM4NH1d/1e0dc0f0ab/Stash_TabL.png"
+		},
+		{
+			"n": "Flasks q",
+			"i": 29,
+			"id": "005167c7e617913d5dc5c9bd85bc44eccdc17b3e8d6d7d5a2cd9425f21e27726",
+			"type": "PremiumStash",
+			"hidden": false,
+			"selected": false,
+			"colour": {
+				"r": 0,
+				"g": 0,
+				"b": 255
+			},
+			"srcL": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoibCIsImMiOi0xNjc3Njk2MX1d/43614a51cf/Stash_TabL.png",
+			"srcC": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoibSIsImMiOi0xNjc3Njk2MX1d/e661db2eb9/Stash_TabL.png",
+			"srcR": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoiciIsImMiOi0xNjc3Njk2MX1d/9a88b3e5bf/Stash_TabL.png"
+		},
+		{
+			"n": "Flasks Stuff",
+			"i": 30,
+			"id": "cf2a91ae010c873785504ab114ec155bee494005794f15841d61061b656be2fe",
+			"type": "PremiumStash",
+			"hidden": false,
+			"selected": false,
+			"colour": {
+				"r": 0,
+				"g": 0,
+				"b": 128
+			},
+			"srcL": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoibCIsImMiOi0xNjc3NzA4OH1d/8ff0e88292/Stash_TabL.png",
+			"srcC": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoibSIsImMiOi0xNjc3NzA4OH1d/5af07046ab/Stash_TabL.png",
+			"srcR": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoiciIsImMiOi0xNjc3NzA4OH1d/be4d4fb3d7/Stash_TabL.png"
+		},
+		{
+			"n": "Shop2",
+			"i": 31,
+			"id": "c0b571813677aadabfcf3964d49cb0092da12ed5dbb04d78b3f956d4edf294e2",
+			"type": "PremiumStash",
+			"hidden": false,
+			"selected": false,
+			"colour": {
+				"r": 99,
+				"g": 128,
+				"b": 0
+			},
+			"srcL": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoibCIsImMiOi0xMDI1NjM4NH1d/add36a62cf/Stash_TabL.png",
+			"srcC": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoibSIsImMiOi0xMDI1NjM4NH1d/bca6333c61/Stash_TabL.png",
+			"srcR": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoiciIsImMiOi0xMDI1NjM4NH1d/1e0dc0f0ab/Stash_TabL.png"
+		},
+		{
+			"n": "Uniques",
+			"i": 32,
+			"id": "e923933a4510153a0d090a0b99d0c96a1fd1d4d1537471de91243e6660a9f6d5",
+			"type": "PremiumStash",
+			"hidden": false,
+			"selected": false,
+			"colour": {
+				"r": 191,
+				"g": 0,
+				"b": 0
+			},
+			"srcL": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoibCIsImMiOi00MjU5ODQwfV0/cc64d967fb/Stash_TabL.png",
+			"srcC": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoibSIsImMiOi00MjU5ODQwfV0/8e5ec47efe/Stash_TabL.png",
+			"srcR": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoiciIsImMiOi00MjU5ODQwfV0/ff3a937d2d/Stash_TabL.png"
+		},
+		{
+			"n": "Maps",
+			"i": 33,
+			"id": "9fbd6159b30d22480a751ce96d650e279f1b2d445ab995b300fee13bc4fd8fdb",
+			"type": "PremiumStash",
+			"hidden": false,
+			"selected": false,
+			"colour": {
+				"r": 191,
+				"g": 0,
+				"b": 0
+			},
+			"srcL": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoibCIsImMiOi00MjU5ODQwfV0/cc64d967fb/Stash_TabL.png",
+			"srcC": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoibSIsImMiOi00MjU5ODQwfV0/8e5ec47efe/Stash_TabL.png",
+			"srcR": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoiciIsImMiOi00MjU5ODQwfV0/ff3a937d2d/Stash_TabL.png"
+		},
+		{
+			"n": "Uniques",
+			"i": 34,
+			"id": "9981d2a96d78ae4db9a61ac64e8479a4ceff2e7f383c6ec563947bade9ac9b42",
+			"type": "PremiumStash",
+			"hidden": false,
+			"selected": false,
+			"colour": {
+				"r": 99,
+				"g": 128,
+				"b": 0
+			},
+			"srcL": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoibCIsImMiOi0xMDI1NjM4NH1d/add36a62cf/Stash_TabL.png",
+			"srcC": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoibSIsImMiOi0xMDI1NjM4NH1d/bca6333c61/Stash_TabL.png",
+			"srcR": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoiciIsImMiOi0xMDI1NjM4NH1d/1e0dc0f0ab/Stash_TabL.png"
+		},
+		{
+			"n": "Uniques",
+			"i": 35,
+			"id": "fa3dbed0baad4ddcc9ffbaf1ef3f493b772ffaad5662ed43af4042a9414914a6",
+			"type": "PremiumStash",
+			"hidden": false,
+			"selected": false,
+			"colour": {
+				"r": 50,
+				"g": 50,
+				"b": 50
+			},
+			"srcL": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoibCIsImMiOi0xMzQ4NzU2Nn1d/0ce8f75b7c/Stash_TabL.png",
+			"srcC": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoibSIsImMiOi0xMzQ4NzU2Nn1d/4470380632/Stash_TabL.png",
+			"srcR": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoiciIsImMiOi0xMzQ4NzU2Nn1d/b85f086896/Stash_TabL.png"
+		},
+		{
+			"n": "Uniques 2",
+			"i": 36,
+			"id": "33d5c415286be299bc1f82d1eec96fbc74d6858c0aeb6babbe792f9411aa7d66",
+			"type": "PremiumStash",
+			"hidden": false,
+			"selected": false,
+			"colour": {
+				"r": 255,
+				"g": 170,
+				"b": 0
+			},
+			"srcL": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoibCIsImMiOi0yMjAxNn1d/317f9d2d8c/Stash_TabL.png",
+			"srcC": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoibSIsImMiOi0yMjAxNn1d/c06c5980a6/Stash_TabL.png",
+			"srcR": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoiciIsImMiOi0yMjAxNn1d/9a7ac3c720/Stash_TabL.png"
+		},
+		{
+			"n": "Uniques 3",
+			"i": 37,
+			"id": "2b1329605af71da22c0abd46970107e8dedb4cdcfb828a45a1066d7b2d0060da",
+			"type": "PremiumStash",
+			"hidden": false,
+			"selected": false,
+			"colour": {
+				"r": 99,
+				"g": 128,
+				"b": 0
+			},
+			"srcL": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoibCIsImMiOi0xMDI1NjM4NH1d/add36a62cf/Stash_TabL.png",
+			"srcC": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoibSIsImMiOi0xMDI1NjM4NH1d/bca6333c61/Stash_TabL.png",
+			"srcR": "https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoiciIsImMiOi0xMDI1NjM4NH1d/1e0dc0f0ab/Stash_TabL.png"
+		}
+	],
+	"quadLayout": true,
+	"items": [{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/image/Art/2DItems/Currency/CurrencyRerollSocketNumbers.png?v=2946b0825af70f796b8f15051d75164d&w=1&h=1&scale=1",
+			"stackSize": 3,
+			"maxStackSize": 20,
+			"league": "Heist",
+			"id": "16d22643acb3e985fb77e83878468d852f31c10d79e903606eb679a1aeb1167e",
+			"name": "",
+			"typeLine": "Jeweller's Orb",
+			"identified": true,
+			"ilvl": 0,
+			"properties": [{
+				"name": "Stack Size",
+				"values": [
+					[
+						"3/20",
+						0
+					]
+				],
+				"displayMode": 0,
+				"type": 32
+			}],
+			"explicitMods": [
+				"Reforges the number of sockets on an item"
+			],
+			"descrText": "Right click this item then left click a socketed item to apply it. The item's quality increases the chances of obtaining more sockets.",
+			"frameType": 5,
+			"x": 0,
+			"y": 19,
+			"inventoryId": "Stash2"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/image/Art/2DItems/Currency/CurrencyPassiveSkillRefund.png?v=1de687952ce56385b74ac450f97fcc33&w=1&h=1&scale=1",
+			"stackSize": 2,
+			"maxStackSize": 40,
+			"league": "Heist",
+			"id": "a187be8db8dfaec19837911348cf570ce137243c11b7d05f226bb1718bb9454d",
+			"name": "",
+			"typeLine": "Orb of Regret",
+			"identified": true,
+			"ilvl": 0,
+			"properties": [{
+				"name": "Stack Size",
+				"values": [
+					[
+						"2/40",
+						0
+					]
+				],
+				"displayMode": 0,
+				"type": 32
+			}],
+			"explicitMods": [
+				"Grants a passive skill refund point"
+			],
+			"descrText": "Right click on this item to use it.",
+			"frameType": 5,
+			"x": 0,
+			"y": 18,
+			"inventoryId": "Stash2"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/image/Art/2DItems/Currency/CurrencyRerollSocketLinks.png?v=0ad7134a62e5c45e4f8bc8a44b95540f&w=1&h=1&scale=1",
+			"stackSize": 4,
+			"maxStackSize": 20,
+			"league": "Heist",
+			"id": "877b1e125c568f614539b5a8d415c2310db6b10ca6a7b190f2b63cb2aa1536fe",
+			"name": "",
+			"typeLine": "Orb of Fusing",
+			"identified": true,
+			"ilvl": 0,
+			"properties": [{
+				"name": "Stack Size",
+				"values": [
+					[
+						"4/20",
+						0
+					]
+				],
+				"displayMode": 0,
+				"type": 32
+			}],
+			"explicitMods": [
+				"Reforges the links between sockets on an item"
+			],
+			"descrText": "Right click this item then left click a socketed item to apply it. The item's quality increases the chances of obtaining more links.",
+			"frameType": 5,
+			"x": 1,
+			"y": 3,
+			"inventoryId": "Stash2"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/image/Art/2DItems/Currency/Heist/ContractItem7.png?v=428ae211ca07c124d757ef153738789c&w=1&h=1&scale=1",
+			"league": "Heist",
+			"id": "bf9212ea2a8ba1b65a0c345ed96fd3cef8fe73634cc31e2a7c4a2c20a8c9c0ec",
+			"name": "",
+			"typeLine": "Contract: Underbelly",
+			"identified": true,
+			"ilvl": 70,
+			"properties": [{
+					"name": "Client",
+					"values": [
+						[
+							"Nishem",
+							0
+						]
+					],
+					"displayMode": 0
+				},
+				{
+					"name": "Heist Target: {0} ({1})",
+					"values": [
+						[
+							"The Sea Pearl Heirloom",
+							0
+						],
+						[
+							"High Value",
+							0
+						]
+					],
+					"displayMode": 3,
+					"type": 47
+				},
+				{
+					"name": "Area Level",
+					"values": [
+						[
+							"70",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 34
+				},
+				{
+					"name": "Requires {1} (Level {0})",
+					"values": [
+						[
+							"3",
+							0
+						],
+						[
+							"Brute Force",
+							0
+						]
+					],
+					"displayMode": 3,
+					"type": 39
+				}
+			],
+			"descrText": "Give this Contract to Adiyah in the Rogue Harbour to embark on the Heist.",
+			"flavourText": [
+				"\"My accursed father owes his children this heirloom. We deserve\r",
+				"to know our culture, just like you full-blooded humans do.\""
+			],
+			"frameType": 0,
+			"x": 2,
+			"y": 11,
+			"inventoryId": "Stash2"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/image/Art/2DItems/Currency/Essence/Greed2.png?v=2c3f8a3a5a1454ca0883d4c17109b617&w=1&h=1&scale=1",
+			"stackSize": 1,
+			"maxStackSize": 9,
+			"league": "Heist",
+			"id": "35aaa157b9b3d2d8a34a5017dafb856c7969ff22dc6cbdaaa80523b6a34e9a26",
+			"name": "",
+			"typeLine": "Muttering Essence of Greed",
+			"identified": true,
+			"ilvl": 0,
+			"properties": [{
+				"name": "Stack Size",
+				"values": [
+					[
+						"1/9",
+						0
+					]
+				],
+				"displayMode": 0,
+				"type": 32
+			}],
+			"explicitMods": [
+				"Upgrades a normal item to rare with one guaranteed property",
+				"Properties restricted to level 45 and below",
+				"",
+				"Weapon: (0.6-0.8)% of Physical Attack Damage Leeched as Life",
+				"Armour: (15-30) to maximum Life",
+				"Quiver: (0.6-0.8)% of Physical Attack Damage Leeched as Life",
+				"Belt: (12-15)% increased Flask Life Recovery rate",
+				"Other Jewellery: Regenerate (2-5) Life per second"
+			],
+			"descrText": "Right click this item then left click a normal item to apply it.",
+			"frameType": 5,
+			"x": 0,
+			"y": 22,
+			"inventoryId": "Stash2"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/image/Art/2DItems/Currency/Essence/Contempt2.png?v=54a248bdc119c25b458deaf1e4867821&w=1&h=1&scale=1",
+			"stackSize": 1,
+			"maxStackSize": 9,
+			"league": "Heist",
+			"id": "4e3776a50b7f144a002a7bfd18cda829bb52ac70a3363c2bfb0d84df54fb33bf",
+			"name": "",
+			"typeLine": "Muttering Essence of Contempt",
+			"identified": true,
+			"ilvl": 0,
+			"properties": [{
+				"name": "Stack Size",
+				"values": [
+					[
+						"1/9",
+						0
+					]
+				],
+				"displayMode": 0,
+				"type": 32
+			}],
+			"explicitMods": [
+				"Upgrades a normal item to rare with one guaranteed property",
+				"Properties restricted to level 45 and below",
+				"",
+				"One Handed Weapon: Adds (4-5) to (8-9) Physical Damage",
+				"Two Handed Weapon: Adds (6-8) to (13-14) Physical Damage",
+				"Gloves: Adds (2-3) to (4-5) Physical Damage to Attacks",
+				"Other Armour: Reflects (5-10) Physical Damage to Melee Attackers",
+				"Quiver: Adds (2-3) to (4-5) Physical Damage to Attacks",
+				"Belt: Reflects (5-10) Physical Damage to Melee Attackers",
+				"Other Jewellery: Adds (2-3) to (4-5) Physical Damage to Attacks"
+			],
+			"descrText": "Right click this item then left click a normal item to apply it.",
+			"frameType": 5,
+			"x": 1,
+			"y": 2,
+			"inventoryId": "Stash2"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/image/Art/2DItems/Currency/Essence/Wrath3.png?v=3870a986ca4f5984a797427c40a4ab41&w=1&h=1&scale=1",
+			"stackSize": 1,
+			"maxStackSize": 9,
+			"league": "Heist",
+			"id": "52abc907564a20da7afde128450ecac5a427401dd1464feeab1287647776c3f7",
+			"name": "",
+			"typeLine": "Weeping Essence of Wrath",
+			"identified": true,
+			"ilvl": 0,
+			"properties": [{
+				"name": "Stack Size",
+				"values": [
+					[
+						"1/9",
+						0
+					]
+				],
+				"displayMode": 0,
+				"type": 32
+			}],
+			"explicitMods": [
+				"Upgrades a normal item to rare with one guaranteed property",
+				"Properties restricted to level 60 and below",
+				"",
+				"Two Handed Melee Weapon: Adds (3-9) to (102-117) Lightning Damage",
+				"Other Weapon: Adds (2-5) to (55-63) Lightning Damage",
+				"Armour: (18-23)% to Lightning Resistance",
+				"Quiver: (18-23)% to Lightning Resistance",
+				"Belt: (18-23)% to Lightning Resistance",
+				"Other Jewellery: (8-12)% increased Lightning Damage"
+			],
+			"descrText": "Right click this item then left click a normal item to apply it.",
+			"frameType": 5,
+			"x": 0,
+			"y": 23,
+			"inventoryId": "Stash2"
+		},
+		{
+			"verified": false,
+			"w": 2,
+			"h": 3,
+			"icon": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStrInt1C.png?v=cd4e1ae25b62ca228a234ca75312d8db&w=2&h=3&scale=1",
+			"league": "Heist",
+			"id": "0f7d3551e5172e08b1cb5b8a1006dd6fdb9c65ec1e7adca65b5558da963eb558",
+			"sockets": [{
+					"group": 0,
+					"attr": "I",
+					"sColour": "B"
+				},
+				{
+					"group": 0,
+					"attr": "S",
+					"sColour": "R"
+				}
+			],
+			"name": "",
+			"typeLine": "Elegant Ringmail",
+			"identified": false,
+			"ilvl": 72,
+			"properties": [{
+					"name": "Armour",
+					"values": [
+						[
+							"377",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 16
+				},
+				{
+					"name": "Energy Shield",
+					"values": [
+						[
+							"87",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 18
+				}
+			],
+			"requirements": [{
+					"name": "Str",
+					"values": [
+						[
+							"90",
+							0
+						]
+					],
+					"displayMode": 1
+				},
+				{
+					"name": "Int",
+					"values": [
+						[
+							"105",
+							0
+						]
+					],
+					"displayMode": 1
+				}
+			],
+			"frameType": 2,
+			"x": 3,
+			"y": 8,
+			"inventoryId": "Stash2",
+			"socketedItems": []
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/image/Art/2DItems/Currency/Heist/ContractItem8.png?v=56180bfd84fb37d2c04bf872470c6ff5&w=1&h=1&scale=1",
+			"league": "Heist",
+			"id": "24d76a87b43d1a35efb3d2fee4e44a4262cecef54c54c584258590331468e03d",
+			"name": "",
+			"typeLine": "Contract: Records Office",
+			"identified": true,
+			"ilvl": 73,
+			"properties": [{
+					"name": "Client",
+					"values": [
+						[
+							"Marcine Clavus",
+							0
+						]
+					],
+					"displayMode": 0
+				},
+				{
+					"name": "Heist Target: {0} ({1})",
+					"values": [
+						[
+							"Enigmatic Assembly C5",
+							0
+						],
+						[
+							"Moderate Value",
+							0
+						]
+					],
+					"displayMode": 3,
+					"type": 47
+				},
+				{
+					"name": "Area Level",
+					"values": [
+						[
+							"73",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 34
+				},
+				{
+					"name": "Requires {1} (Level {0})",
+					"values": [
+						[
+							"2",
+							0
+						],
+						[
+							"Trap Disarmament",
+							0
+						]
+					],
+					"displayMode": 3,
+					"type": 43
+				}
+			],
+			"descrText": "Give this Contract to Adiyah in the Rogue Harbour to embark on the Heist.",
+			"flavourText": [
+				"\"I have spent my family's entire fortune in the pursuit of this device.\r",
+				"Assembling it and turning it on is all I have left.\""
+			],
+			"frameType": 0,
+			"x": 3,
+			"y": 0,
+			"inventoryId": "Stash2"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/image/Art/2DItems/Maps/Labyrinth.png?v=ef005aef5d2f9135d6922f4b1b912f78&w=1&h=1&scale=1",
+			"league": "Heist",
+			"id": "1322a5fd1599a6d1d5b3c1826ae63022956233fde66e3394ea3b60ced71f1e86",
+			"name": "",
+			"typeLine": "Offering to the Goddess",
+			"identified": true,
+			"ilvl": 0,
+			"descrText": "Travel to the Aspirants' Plaza and spend this item to open the Eternal Labyrinth. You must have completed the six different Trials of Ascendancy found in Maps in order to access this area.",
+			"flavourText": [
+				"It is time for the Goddess to give her final verdict.\r",
+				"Your fate rests in her even hands."
+			],
+			"frameType": 0,
+			"x": 2,
+			"y": 23,
+			"inventoryId": "Stash2"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/image/Art/2DItems/Currency/Heist/HeistCoinCurrency.png?v=91f470e219855da2a828fd553feb30f6&w=1&h=1&scale=1",
+			"stackSize": 472,
+			"maxStackSize": 50000,
+			"league": "Heist",
+			"id": "9fe74566fcc15c3737c27b72c91bb4aeb05eff1d97e074b63ee783cdb9aca914",
+			"name": "",
+			"typeLine": "Rogue's Marker",
+			"identified": true,
+			"ilvl": 0,
+			"properties": [{
+				"name": "Stack Size",
+				"values": [
+					[
+						"472/50000",
+						0
+					]
+				],
+				"displayMode": 0,
+				"type": 32
+			}],
+			"explicitMods": [
+				"Creates a portal to the Rogue Harbour from a Town or Hideout\nUsed as Currency for services in the Rogue Harbour"
+			],
+			"descrText": "Right click on this item while in a Town or Hideout to use it.",
+			"frameType": 5,
+			"x": 0,
+			"y": 4,
+			"inventoryId": "Stash2"
+		},
+		{
+			"verified": false,
+			"w": 2,
+			"h": 2,
+			"icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsInt4.png?v=4808dffa0aa9745b57119af9319d0be3&w=2&h=2&scale=1",
+			"league": "Heist",
+			"id": "3a067142d449f33a78cbf26f8426ced7f9f188e58a46c8087de5fb98097e58d7",
+			"sockets": [{
+				"group": 0,
+				"attr": "I",
+				"sColour": "B"
+			}],
+			"name": "",
+			"typeLine": "Conjurer Boots",
+			"identified": false,
+			"ilvl": 72,
+			"properties": [{
+				"name": "Energy Shield",
+				"values": [
+					[
+						"34",
+						0
+					]
+				],
+				"displayMode": 0,
+				"type": 18
+			}],
+			"requirements": [{
+				"name": "Intelligence",
+				"values": [
+					[
+						"94",
+						0
+					]
+				],
+				"displayMode": 1
+			}],
+			"frameType": 2,
+			"x": 3,
+			"y": 1,
+			"inventoryId": "Stash2",
+			"socketedItems": []
+		},
+		{
+			"verified": false,
+			"w": 2,
+			"h": 2,
+			"icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesStrInt3.png?v=6121a1f24b6a6b016f4f62266feb4965&w=2&h=2&scale=1",
+			"league": "Heist",
+			"id": "034f86cffb472b8a1857e4206e3d57241c69567238a06cc46932cbc89120bbd5",
+			"sockets": [{
+					"group": 0,
+					"attr": "I",
+					"sColour": "B"
+				},
+				{
+					"group": 0,
+					"attr": "S",
+					"sColour": "R"
+				},
+				{
+					"group": 0,
+					"attr": "D",
+					"sColour": "G"
+				}
+			],
+			"name": "",
+			"typeLine": "Mesh Gloves",
+			"identified": true,
+			"ilvl": 70,
+			"properties": [{
+					"name": "Armour",
+					"values": [
+						[
+							"58",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 16
+				},
+				{
+					"name": "Energy Shield",
+					"values": [
+						[
+							"12",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 18
+				}
+			],
+			"requirements": [{
+					"name": "Level",
+					"values": [
+						[
+							"32",
+							0
+						]
+					],
+					"displayMode": 0
+				},
+				{
+					"name": "Str",
+					"values": [
+						[
+							"26",
+							0
+						]
+					],
+					"displayMode": 1
+				},
+				{
+					"name": "Int",
+					"values": [
+						[
+							"26",
+							0
+						]
+					],
+					"displayMode": 1
+				}
+			],
+			"frameType": 0,
+			"x": 1,
+			"y": 8,
+			"inventoryId": "Stash2",
+			"socketedItems": []
+		},
+		{
+			"verified": false,
+			"w": 2,
+			"h": 2,
+			"icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesInt3.png?v=af52d7a61dc25003bf727c86cd21b103&w=2&h=2&scale=1",
+			"league": "Heist",
+			"id": "6a98660c1147b4ae253f2c7e02cc5834fb01a7cb8616562135dbddedd73c65f6",
+			"sockets": [{
+				"group": 0,
+				"attr": "I",
+				"sColour": "B"
+			}],
+			"name": "",
+			"typeLine": "Samite Gloves",
+			"identified": false,
+			"ilvl": 72,
+			"properties": [{
+				"name": "Energy Shield",
+				"values": [
+					[
+						"30",
+						0
+					]
+				],
+				"displayMode": 0,
+				"type": 18
+			}],
+			"requirements": [{
+				"name": "Intelligence",
+				"values": [
+					[
+						"68",
+						0
+					]
+				],
+				"displayMode": 1
+			}],
+			"frameType": 2,
+			"x": 1,
+			"y": 5,
+			"inventoryId": "Stash2",
+			"socketedItems": []
+		},
+		{
+			"verified": false,
+			"w": 2,
+			"h": 3,
+			"icon": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStrDex1C.png?v=e0eca364abb34a00e7496c90944c8e12&w=2&h=3&scale=1",
+			"league": "Heist",
+			"id": "6030bdd2722aac25fa8b196fec3e99b87f54a533fcda908208f9f25ef51d9564",
+			"sockets": [{
+					"group": 0,
+					"attr": "D",
+					"sColour": "G"
+				},
+				{
+					"group": 0,
+					"attr": "S",
+					"sColour": "R"
+				}
+			],
+			"name": "",
+			"typeLine": "Full Dragonscale",
+			"identified": false,
+			"ilvl": 72,
+			"properties": [{
+					"name": "Armour",
+					"values": [
+						[
+							"470",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 16
+				},
+				{
+					"name": "Evasion Rating",
+					"values": [
+						[
+							"373",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 17
+				}
+			],
+			"requirements": [{
+					"name": "Str",
+					"values": [
+						[
+							"115",
+							0
+						]
+					],
+					"displayMode": 1
+				},
+				{
+					"name": "Dex",
+					"values": [
+						[
+							"94",
+							0
+						]
+					],
+					"displayMode": 1
+				}
+			],
+			"frameType": 2,
+			"x": 3,
+			"y": 5,
+			"inventoryId": "Stash2",
+			"socketedItems": []
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/image/Art/2DItems/Amulets/Amulet5.png?v=574b38016f547495a51268177882d5cc&w=1&h=1&scale=1",
+			"league": "Heist",
+			"id": "73072ead709d1e9c79402f4dbcedf27b7709da37f0e33db4d972c7e64e932cb5",
+			"name": "",
+			"typeLine": "Lapis Amulet",
+			"identified": false,
+			"ilvl": 71,
+			"implicitMods": [
+				"+20 to Intelligence"
+			],
+			"frameType": 2,
+			"x": 1,
+			"y": 13,
+			"inventoryId": "Stash2"
+		},
+		{
+			"verified": false,
+			"w": 2,
+			"h": 2,
+			"icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/StrikeTrue.png?v=e59a64ad2449156a6a1f7d0a9719ac93&w=2&h=2&scale=1",
+			"league": "Heist",
+			"id": "2f823f10595186e6eab82d6a7347b10f6d3ec0ec43df40138386095fdd2dc71a",
+			"sockets": [{
+				"group": 0,
+				"attr": "D",
+				"sColour": "G"
+			}],
+			"name": "",
+			"typeLine": "Slink Gloves",
+			"identified": false,
+			"ilvl": 72,
+			"properties": [{
+				"name": "Evasion Rating",
+				"values": [
+					[
+						"242",
+						0
+					]
+				],
+				"displayMode": 0,
+				"type": 17
+			}],
+			"requirements": [{
+				"name": "Dexterity",
+				"values": [
+					[
+						"95",
+						0
+					]
+				],
+				"displayMode": 1
+			}],
+			"frameType": 3,
+			"x": 1,
+			"y": 17,
+			"inventoryId": "Stash2",
+			"socketedItems": []
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/image/Art/2DItems/Amulets/TalismanBlack5.png?v=e86ae653abf39dd0131eaeb8d591b638&w=1&h=1&scale=1",
+			"league": "Heist",
+			"id": "5f1535c6a7d72bb6cc67ec5cf75c18e83846645187b1ea95c6d9bbd3280d59ef",
+			"name": "Blight Medallion",
+			"typeLine": "Fangjaw Talisman",
+			"identified": true,
+			"ilvl": 71,
+			"corrupted": true,
+			"requirements": [{
+				"name": "Level",
+				"values": [
+					[
+						"56",
+						0
+					]
+				],
+				"displayMode": 0
+			}],
+			"talismanTier": 2,
+			"implicitMods": [
+				"10% increased maximum Life"
+			],
+			"explicitMods": [
+				"14% increased Evasion Rating",
+				"18% increased maximum Energy Shield",
+				"+12% to Cold Resistance",
+				"1.17% of Physical Attack Damage Leeched as Life",
+				"+2 Mana gained on Kill"
+			],
+			"enchantMods": [
+				"Allocates Counterweight"
+			],
+			"flavourText": [
+				"The First Ones are the forever ones.\r",
+				"There is no dust of the hourglass in their blood.\r",
+				"No fissures of weariness in their faces.\r",
+				"To drink of their blood is to drink of time itself.\r",
+				"- The Wolven King"
+			],
+			"frameType": 2,
+			"x": 4,
+			"y": 0,
+			"inventoryId": "Stash2"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/gen/image/WzI4LDE0LHsiZiI6IjJESXRlbXNcL01hcHNcL0F0bGFzMk1hcHNcL05ld1wvR2xhY2llciIsInciOjEsImgiOjEsInNjYWxlIjp0cnVlLCJtbiI6OSwibXQiOjJ9XQ/66339a073a/Item.png",
+			"league": "Heist",
+			"id": "4f94e631e6167dc3302f2517148ab8d5ac1cbc5880ac939213a733a212eec5ce",
+			"name": "",
+			"typeLine": "Glacier Map",
+			"identified": false,
+			"ilvl": 72,
+			"properties": [{
+					"name": "Map Tier",
+					"values": [
+						[
+							"2",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 1
+				},
+				{
+					"name": "Atlas Region",
+					"values": [
+						[
+							"Lex Proxima",
+							0
+						]
+					],
+					"displayMode": 0
+				}
+			],
+			"descrText": "Travel to this Map by using it in a personal Map Device. Maps can only be used once.",
+			"frameType": 2,
+			"x": 2,
+			"y": 7,
+			"inventoryId": "Stash2"
+		},
+		{
+			"verified": false,
+			"w": 2,
+			"h": 2,
+			"icon": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Claws/Claw8.png?v=3e3a81e6e64ee3e493db6a417de6dc36&w=2&h=2&scale=1",
+			"league": "Heist",
+			"id": "cbad4e010b7712ead793e88900a401d96ae170e10a6d88fa6fd65f4c3ff2496e",
+			"sockets": [{
+					"group": 0,
+					"attr": "I",
+					"sColour": "B"
+				},
+				{
+					"group": 0,
+					"attr": "D",
+					"sColour": "G"
+				},
+				{
+					"group": 0,
+					"attr": "S",
+					"sColour": "R"
+				}
+			],
+			"name": "",
+			"typeLine": "Terror Claw",
+			"identified": false,
+			"ilvl": 72,
+			"properties": [{
+					"name": "Claw",
+					"values": [],
+					"displayMode": 0
+				},
+				{
+					"name": "Physical Damage",
+					"values": [
+						[
+							"18-71",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 9
+				},
+				{
+					"name": "Critical Strike Chance",
+					"values": [
+						[
+							"6.30%",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 12
+				},
+				{
+					"name": "Attacks per Second",
+					"values": [
+						[
+							"1.50",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 13
+				},
+				{
+					"name": "Weapon Range",
+					"values": [
+						[
+							"11",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 14
+				}
+			],
+			"requirements": [{
+					"name": "Dex",
+					"values": [
+						[
+							"113",
+							0
+						]
+					],
+					"displayMode": 1
+				},
+				{
+					"name": "Int",
+					"values": [
+						[
+							"113",
+							0
+						]
+					],
+					"displayMode": 1
+				}
+			],
+			"implicitMods": [
+				"2% of Physical Attack Damage Leeched as Life"
+			],
+			"frameType": 1,
+			"x": 2,
+			"y": 21,
+			"inventoryId": "Stash2",
+			"socketedItems": []
+		},
+		{
+			"verified": false,
+			"w": 2,
+			"h": 2,
+			"icon": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Claws/Claw8.png?v=3e3a81e6e64ee3e493db6a417de6dc36&w=2&h=2&scale=1",
+			"league": "Heist",
+			"id": "e84799cfd5ea42e05cca78f050c40ce1ce5dfbf35593c76233dfd756b4256cf6",
+			"sockets": [{
+					"group": 0,
+					"attr": "I",
+					"sColour": "B"
+				},
+				{
+					"group": 0,
+					"attr": "D",
+					"sColour": "G"
+				}
+			],
+			"name": "Carrion Razor",
+			"typeLine": "Eagle Claw",
+			"identified": true,
+			"ilvl": 72,
+			"properties": [{
+					"name": "Claw",
+					"values": [],
+					"displayMode": 0
+				},
+				{
+					"name": "Physical Damage",
+					"values": [
+						[
+							"17-69",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 9
+				},
+				{
+					"name": "Elemental Damage",
+					"values": [
+						[
+							"9-18",
+							4
+						],
+						[
+							"2-29",
+							6
+						]
+					],
+					"displayMode": 0,
+					"type": 10
+				},
+				{
+					"name": "Critical Strike Chance",
+					"values": [
+						[
+							"6.30%",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 12
+				},
+				{
+					"name": "Attacks per Second",
+					"values": [
+						[
+							"1.50",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 13
+				},
+				{
+					"name": "Weapon Range",
+					"values": [
+						[
+							"11",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 14
+				}
+			],
+			"requirements": [{
+					"name": "Level",
+					"values": [
+						[
+							"57",
+							0
+						]
+					],
+					"displayMode": 0
+				},
+				{
+					"name": "Dex",
+					"values": [
+						[
+							"94",
+							0
+						]
+					],
+					"displayMode": 1
+				},
+				{
+					"name": "Int",
+					"values": [
+						[
+							"94",
+							0
+						]
+					],
+					"displayMode": 1
+				}
+			],
+			"implicitMods": [
+				"2% of Physical Attack Damage Leeched as Life"
+			],
+			"explicitMods": [
+				"Adds 9 to 18 Fire Damage",
+				"Adds 2 to 29 Lightning Damage",
+				"57% increased Mana Regeneration Rate"
+			],
+			"craftedMods": [
+				"+16% to Cold Damage over Time Multiplier"
+			],
+			"frameType": 2,
+			"x": 2,
+			"y": 3,
+			"inventoryId": "Stash2",
+			"socketedItems": []
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/image/Art/2DItems/Currency/AtlasRadiusTier1.png?v=7c21fc06120d910018893083227406df&w=1&h=1&scale=1",
+			"stackSize": 1,
+			"maxStackSize": 10,
+			"league": "Heist",
+			"id": "beb60b292ce7b94e802dfb385e58dff4c4c5c0ebfd894950e80c47904add6dd2",
+			"name": "",
+			"typeLine": "Simple Sextant",
+			"identified": true,
+			"ilvl": 0,
+			"properties": [{
+				"name": "Stack Size",
+				"values": [
+					[
+						"1/10",
+						0
+					]
+				],
+				"displayMode": 0,
+				"type": 32
+			}],
+			"explicitMods": [
+				"Adds or rerolls a modifier on a Watchstone."
+			],
+			"descrText": "Right click this item then left click a Watchstone to apply it.",
+			"frameType": 5,
+			"x": 1,
+			"y": 12,
+			"inventoryId": "Stash2"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/image/Art/2DItems/Currency/CurrencyWeaponQuality.png?v=d2ce9167e23a74cef5d8465433e86482&w=1&h=1&scale=1",
+			"stackSize": 3,
+			"maxStackSize": 20,
+			"league": "Heist",
+			"id": "6473ef86397d0aacef2ca079a51907a04002b818e4eaad819e8c3c03e47235cd",
+			"name": "",
+			"typeLine": "Blacksmith's Whetstone",
+			"identified": true,
+			"ilvl": 0,
+			"properties": [{
+				"name": "Stack Size",
+				"values": [
+					[
+						"3/20",
+						0
+					]
+				],
+				"displayMode": 0,
+				"type": 32
+			}],
+			"explicitMods": [
+				"Improves the quality of a weapon"
+			],
+			"descrText": "Right click this item then left click a weapon to apply it. Has greater effect on lower-rarity weapons. The maximum quality is 20%.",
+			"frameType": 5,
+			"x": 2,
+			"y": 1,
+			"inventoryId": "Stash2"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/gen/image/WzI4LDE0LHsiZiI6IjJESXRlbXNcL01hcHNcL0F0bGFzMk1hcHNcL05ld1wvTWF1c29sZXVtIiwidyI6MSwiaCI6MSwic2NhbGUiOnRydWUsIm1uIjo5LCJtdCI6MX1d/c5c13fba7a/Item.png",
+			"league": "Heist",
+			"id": "9b014ef95dc2152e58116c4199088bb81a37b87eeca59a4b3ca364bd2d7c3c4e",
+			"name": "",
+			"typeLine": "Mausoleum Map",
+			"identified": true,
+			"ilvl": 72,
+			"properties": [{
+					"name": "Map Tier",
+					"values": [
+						[
+							"1",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 1
+				},
+				{
+					"name": "Atlas Region",
+					"values": [
+						[
+							"Tirn's End",
+							0
+						]
+					],
+					"displayMode": 0
+				}
+			],
+			"descrText": "Travel to this Map by using it in a personal Map Device. Maps can only be used once.",
+			"frameType": 0,
+			"x": 1,
+			"y": 11,
+			"inventoryId": "Stash2"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/gen/image/WzI4LDE0LHsiZiI6IjJESXRlbXNcL01hcHNcL0F0bGFzMk1hcHNcL05ld1wvUGFyayIsInciOjEsImgiOjEsInNjYWxlIjp0cnVlLCJtbiI6OSwibXQiOjF9XQ/dc1fa6221e/Item.png",
+			"league": "Heist",
+			"id": "0861661b65026739ee83217c7046ac4da7351010f61dc425e8b1aa8a82cab075",
+			"name": "",
+			"typeLine": "Park Map",
+			"identified": true,
+			"ilvl": 73,
+			"properties": [{
+					"name": "Map Tier",
+					"values": [
+						[
+							"1",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 1
+				},
+				{
+					"name": "Atlas Region",
+					"values": [
+						[
+							"Valdo's Rest",
+							0
+						]
+					],
+					"displayMode": 0
+				}
+			],
+			"descrText": "Travel to this Map by using it in a personal Map Device. Maps can only be used once.",
+			"frameType": 0,
+			"x": 3,
+			"y": 19,
+			"inventoryId": "Stash2"
+		},
+		{
+			"verified": false,
+			"w": 2,
+			"h": 1,
+			"icon": "https://web.poecdn.com/image/Art/2DItems/Belts/Belt3.png?v=a559821037f54c94dae053b90bcea363&w=2&h=1&scale=1",
+			"league": "Heist",
+			"id": "4791e34e912b73fe62525b43d079b5c5c39a16413fb8382f6c2317fb5b4272ac",
+			"name": "Brimstone Thread",
+			"typeLine": "Leather Belt",
+			"identified": true,
+			"ilvl": 72,
+			"requirements": [{
+				"name": "Level",
+				"values": [
+					[
+						"48",
+						0
+					]
+				],
+				"displayMode": 0
+			}],
+			"implicitMods": [
+				"+31 to maximum Life"
+			],
+			"explicitMods": [
+				"+27 to Strength",
+				"+88 to maximum Life",
+				"+41 to maximum Mana"
+			],
+			"craftedMods": [
+				"+9% to Fire and Chaos Resistances"
+			],
+			"frameType": 2,
+			"x": 1,
+			"y": 10,
+			"inventoryId": "Stash2"
+		},
+		{
+			"verified": false,
+			"w": 2,
+			"h": 4,
+			"icon": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Staves/Staff7.png?v=2718b1cdd8edb75efd7fb3a84478f18d&w=2&h=4&scale=1",
+			"league": "Heist",
+			"id": "248cea6c505a0a18d02fd008ca381244a8fc592b7e9182a18d3a8ab95c310b6e",
+			"sockets": [{
+					"group": 0,
+					"attr": "I",
+					"sColour": "B"
+				},
+				{
+					"group": 0,
+					"attr": "I",
+					"sColour": "B"
+				},
+				{
+					"group": 0,
+					"attr": "S",
+					"sColour": "R"
+				},
+				{
+					"group": 0,
+					"attr": "S",
+					"sColour": "R"
+				},
+				{
+					"group": 1,
+					"attr": "S",
+					"sColour": "R"
+				},
+				{
+					"group": 1,
+					"attr": "I",
+					"sColour": "B"
+				}
+			],
+			"name": "",
+			"typeLine": "Judgement Staff",
+			"identified": true,
+			"ilvl": 71,
+			"properties": [{
+					"name": "Warstaff",
+					"values": [],
+					"displayMode": 0
+				},
+				{
+					"name": "Physical Damage",
+					"values": [
+						[
+							"73-136",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 9
+				},
+				{
+					"name": "Critical Strike Chance",
+					"values": [
+						[
+							"6.50%",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 12
+				},
+				{
+					"name": "Attacks per Second",
+					"values": [
+						[
+							"1.30",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 13
+				},
+				{
+					"name": "Weapon Range",
+					"values": [
+						[
+							"13",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 14
+				}
+			],
+			"requirements": [{
+					"name": "Level",
+					"values": [
+						[
+							"68",
+							0
+						]
+					],
+					"displayMode": 0
+				},
+				{
+					"name": "Str",
+					"values": [
+						[
+							"113",
+							0
+						]
+					],
+					"displayMode": 1
+				},
+				{
+					"name": "Int",
+					"values": [
+						[
+							"113",
+							0
+						]
+					],
+					"displayMode": 1
+				}
+			],
+			"implicitMods": [
+				"+20% Chance to Block Spell Damage while wielding a Staff"
+			],
+			"frameType": 0,
+			"x": 3,
+			"y": 11,
+			"inventoryId": "Stash2",
+			"socketedItems": []
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/image/Art/2DItems/Currency/CurrencyFlaskQuality.png?v=ca8bd0dd43d2adf8b021578a398eb9de&w=1&h=1&scale=1",
+			"stackSize": 1,
+			"maxStackSize": 20,
+			"league": "Heist",
+			"id": "9295cc8d1b82f06ce6e10086305603912c0b24e9e4807a4e225e6c88e6f2a53f",
+			"name": "",
+			"typeLine": "Glassblower's Bauble",
+			"identified": true,
+			"ilvl": 0,
+			"properties": [{
+				"name": "Stack Size",
+				"values": [
+					[
+						"1/20",
+						0
+					]
+				],
+				"displayMode": 0,
+				"type": 32
+			}],
+			"explicitMods": [
+				"Improves the quality of a flask"
+			],
+			"descrText": "Right click this item then left click a flask to apply it. Has greater effect on lower-rarity flasks. The maximum quality is 20%.",
+			"frameType": 5,
+			"x": 3,
+			"y": 20,
+			"inventoryId": "Stash2"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/image/Art/2DItems/Rings/Ring5.png?v=d645f9adfc012c52674c94d16b4292b2&w=1&h=1&scale=1",
+			"league": "Heist",
+			"id": "7332dc514f9cd96b3431e1dc4ec1d5eeb4561a807e86961607c707246db4f58f",
+			"name": "Gale Hold",
+			"typeLine": "Topaz Ring",
+			"identified": true,
+			"ilvl": 72,
+			"requirements": [{
+				"name": "Level",
+				"values": [
+					[
+						"57",
+						0
+					]
+				],
+				"displayMode": 0
+			}],
+			"implicitMods": [
+				"+21% to Lightning Resistance"
+			],
+			"explicitMods": [
+				"+6 to Evasion Rating",
+				"+61 to maximum Life",
+				"+25% to Cold Resistance"
+			],
+			"craftedMods": [
+				"+11% to Cold and Chaos Resistances"
+			],
+			"frameType": 2,
+			"x": 1,
+			"y": 16,
+			"inventoryId": "Stash2"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 3,
+			"icon": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Wands/Wand6.png?v=54ba351a078c22737d02dfcec8466585&w=1&h=3&scale=1",
+			"league": "Heist",
+			"id": "71a833d6d7451d7e12efc7261fdb98b9aefa712531dbb14f0282f70553ff5926",
+			"sockets": [{
+				"group": 0,
+				"attr": "D",
+				"sColour": "G"
+			}],
+			"name": "",
+			"typeLine": "Omen Wand",
+			"identified": false,
+			"ilvl": 73,
+			"properties": [{
+					"name": "Wand",
+					"values": [],
+					"displayMode": 0
+				},
+				{
+					"name": "Physical Damage",
+					"values": [
+						[
+							"33-61",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 9
+				},
+				{
+					"name": "Critical Strike Chance",
+					"values": [
+						[
+							"8.00%",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 12
+				},
+				{
+					"name": "Attacks per Second",
+					"values": [
+						[
+							"1.20",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 13
+				}
+			],
+			"requirements": [{
+				"name": "Intelligence",
+				"values": [
+					[
+						"200",
+						0
+					]
+				],
+				"displayMode": 1
+			}],
+			"implicitMods": [
+				"30% increased Spell Damage"
+			],
+			"frameType": 2,
+			"x": 4,
+			"y": 19,
+			"inventoryId": "Stash2",
+			"socketedItems": []
+		},
+		{
+			"verified": false,
+			"w": 2,
+			"h": 2,
+			"icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesDex3.png?v=d5a5416dc93881e778df10042df871aa&w=2&h=2&scale=1",
+			"league": "Heist",
+			"id": "141835289c62d647085c4f11f78a600d6f37e17163436cc4712694292c0383b1",
+			"sockets": [{
+					"group": 0,
+					"attr": "D",
+					"sColour": "G"
+				},
+				{
+					"group": 1,
+					"attr": "D",
+					"sColour": "G"
+				},
+				{
+					"group": 1,
+					"attr": "I",
+					"sColour": "B"
+				},
+				{
+					"group": 2,
+					"attr": "D",
+					"sColour": "G"
+				}
+			],
+			"name": "",
+			"typeLine": "Sharkskin Gloves",
+			"identified": false,
+			"ilvl": 73,
+			"properties": [{
+				"name": "Evasion Rating",
+				"values": [
+					[
+						"148",
+						0
+					]
+				],
+				"displayMode": 0,
+				"type": 17
+			}],
+			"requirements": [{
+				"name": "Dexterity",
+				"values": [
+					[
+						"66",
+						0
+					]
+				],
+				"displayMode": 1
+			}],
+			"frameType": 2,
+			"x": 3,
+			"y": 15,
+			"inventoryId": "Stash2",
+			"socketedItems": []
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/image/Art/2DItems/Currency/CurrencyVaal.png?v=64114709d67069cd665f8f1a918cd12a&w=1&h=1&scale=1",
+			"stackSize": 1,
+			"maxStackSize": 10,
+			"league": "Heist",
+			"id": "28423a21fb74646b00ae69a03c76c0caa4700d226e0e6266d06ea50b3e4b1038",
+			"name": "",
+			"typeLine": "Vaal Orb",
+			"identified": true,
+			"ilvl": 0,
+			"properties": [{
+				"name": "Stack Size",
+				"values": [
+					[
+						"1/10",
+						0
+					]
+				],
+				"displayMode": 0,
+				"type": 32
+			}],
+			"explicitMods": [
+				"Corrupts an item, modifying it unpredictably"
+			],
+			"descrText": "Right click this item then left click an item to corrupt it. Corrupted items cannot be modified again.",
+			"frameType": 5,
+			"x": 3,
+			"y": 23,
+			"inventoryId": "Stash2"
+		},
+		{
+			"verified": false,
+			"w": 2,
+			"h": 3,
+			"icon": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStrInt1B.png?v=e3ef9ff43db66e7bb9d49e26c1ead023&w=2&h=3&scale=1",
+			"league": "Heist",
+			"id": "154b8fed7c810141accace92b0631df695dcb74d4088ea30cef731e374ea3725",
+			"sockets": [{
+					"group": 0,
+					"attr": "S",
+					"sColour": "R"
+				},
+				{
+					"group": 0,
+					"attr": "S",
+					"sColour": "R"
+				},
+				{
+					"group": 0,
+					"attr": "S",
+					"sColour": "R"
+				},
+				{
+					"group": 0,
+					"attr": "I",
+					"sColour": "B"
+				},
+				{
+					"group": 0,
+					"attr": "I",
+					"sColour": "B"
+				},
+				{
+					"group": 1,
+					"attr": "S",
+					"sColour": "R"
+				}
+			],
+			"name": "",
+			"typeLine": "Loricated Ringmail",
+			"identified": true,
+			"ilvl": 71,
+			"properties": [{
+					"name": "Armour",
+					"values": [
+						[
+							"325",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 16
+				},
+				{
+					"name": "Energy Shield",
+					"values": [
+						[
+							"63",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 18
+				}
+			],
+			"requirements": [{
+					"name": "Level",
+					"values": [
+						[
+							"58",
+							0
+						]
+					],
+					"displayMode": 0
+				},
+				{
+					"name": "Str",
+					"values": [
+						[
+							"84",
+							0
+						]
+					],
+					"displayMode": 1
+				},
+				{
+					"name": "Int",
+					"values": [
+						[
+							"84",
+							0
+						]
+					],
+					"displayMode": 1
+				}
+			],
+			"frameType": 0,
+			"x": 5,
+			"y": 0,
+			"inventoryId": "Stash2",
+			"socketedItems": []
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/image/Art/2DItems/Currency/Oils/ClearOil.png?v=7e94917a8ab308cd44507d432f6427e0&w=1&h=1&scale=1",
+			"stackSize": 2,
+			"maxStackSize": 10,
+			"league": "Heist",
+			"id": "b9c77e9726f6ae595160f40fedd2aee8255f527289cbd5c57e99de16bffed86d",
+			"name": "",
+			"typeLine": "Clear Oil",
+			"identified": true,
+			"ilvl": 0,
+			"properties": [{
+				"name": "Stack Size",
+				"values": [
+					[
+						"2/10",
+						0
+					]
+				],
+				"displayMode": 0,
+				"type": 32
+			}],
+			"descrText": "Can be combined with other Oils at Cassia to Enchant Rings or Amulets, or to modify Blighted Maps.",
+			"frameType": 5,
+			"x": 2,
+			"y": 2,
+			"inventoryId": "Stash2"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/image/Art/2DItems/Gems/BlinkArrow.png?v=2621a868b5cd6f9bbc7322bc3d7d6f86&w=1&h=1&scale=1",
+			"support": false,
+			"league": "Heist",
+			"id": "c472a3256d891d9c5aaa0fd58cf66b66cad8f97e26d9aaf23fe151125bf4c45d",
+			"name": "",
+			"typeLine": "Blink Arrow",
+			"identified": true,
+			"ilvl": 0,
+			"properties": [{
+					"name": "Attack, Minion, Duration, Movement, Travel, Bow",
+					"values": [],
+					"displayMode": 0
+				},
+				{
+					"name": "Level",
+					"values": [
+						[
+							"1",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 5
+				},
+				{
+					"name": "Mana Cost",
+					"values": [
+						[
+							"14",
+							0
+						]
+					],
+					"displayMode": 0
+				},
+				{
+					"name": "Cooldown Time",
+					"values": [
+						[
+							"3.00 sec",
+							0
+						]
+					],
+					"displayMode": 0
+				},
+				{
+					"name": "Quality",
+					"values": [
+						[
+							"+19%",
+							1
+						]
+					],
+					"displayMode": 0,
+					"type": 6
+				}
+			],
+			"requirements": [{
+					"name": "Level",
+					"values": [
+						[
+							"10",
+							0
+						]
+					],
+					"displayMode": 0
+				},
+				{
+					"name": "Dex",
+					"values": [
+						[
+							"29",
+							0
+						]
+					],
+					"displayMode": 1
+				}
+			],
+			"additionalProperties": [{
+				"name": "Experience",
+				"values": [
+					[
+						"1/9569",
+						0
+					]
+				],
+				"displayMode": 2,
+				"progress": 0.00010450412810314447,
+				"type": 20
+			}],
+			"secDescrText": "Fires an arrow at the target destination. When the arrow lands, you are teleported to it and a clone is summoned at your old location. The clone is a minion that uses your bow and quiver.",
+			"explicitMods": [
+				"Base duration is 3.00 seconds",
+				"28% increased Arrow Speed",
+				"Minions deal 75% more Damage"
+			],
+			"descrText": "Place into an item socket of the right colour to gain this skill. Right click to remove from a socket.",
+			"frameType": 4,
+			"x": 4,
+			"y": 3,
+			"inventoryId": "Stash2"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/image/Art/2DItems/Currency/SilverObol.png?v=93c1b204ec2736a2fe5aabbb99510bcf&w=1&h=1&scale=1",
+			"stackSize": 5,
+			"maxStackSize": 30,
+			"league": "Heist",
+			"id": "bf0c4a00e03dc684e11ba9dd7a6fa0d47cb4f07b16ff8db07d49019ce4182916",
+			"name": "",
+			"typeLine": "Silver Coin",
+			"identified": true,
+			"ilvl": 0,
+			"properties": [{
+				"name": "Stack Size",
+				"values": [
+					[
+						"5/30",
+						0
+					]
+				],
+				"displayMode": 0,
+				"type": 32
+			}],
+			"descrText": "Cross Navali's palm with silver to receive a prophecy.",
+			"frameType": 5,
+			"x": 0,
+			"y": 3,
+			"inventoryId": "Stash2"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/image/Art/2DItems/Currency/ProphecyOrbRed.png?v=dc9105d2b038a79c7c316fc2ba30cef0&w=1&h=1&scale=1",
+			"league": "Heist",
+			"id": "9f628b25a71b045a8067846e9c82bd6c5261c0ef7d3b6b0992143ff121b3c893",
+			"name": "",
+			"typeLine": "Unbearable Whispers III",
+			"identified": true,
+			"ilvl": 0,
+			"descrText": "Right-click to add this prophecy to your character.",
+			"flavourText": [
+				"The Aesthete holds the Whisperer's forbidden words safe, deep in the beast's belly."
+			],
+			"prophecyText": "You will slay Shavronne, and she will drop a tome.",
+			"frameType": 8,
+			"x": 0,
+			"y": 11,
+			"inventoryId": "Stash2"
+		},
+		{
+			"verified": false,
+			"w": 2,
+			"h": 2,
+			"icon": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Claws/Claw2.png?v=13a717e8db4f740348e01c17e7669b8e&w=2&h=2&scale=1",
+			"league": "Heist",
+			"id": "19a2c0a0a1b71233826e4229b21ac22f6179053a74fec821ebca774ae0f413db",
+			"sockets": [{
+					"group": 0,
+					"attr": "I",
+					"sColour": "B"
+				},
+				{
+					"group": 0,
+					"attr": "S",
+					"sColour": "R"
+				},
+				{
+					"group": 0,
+					"attr": "D",
+					"sColour": "G"
+				}
+			],
+			"name": "",
+			"typeLine": "Great White Claw",
+			"identified": false,
+			"ilvl": 72,
+			"properties": [{
+					"name": "Claw",
+					"values": [],
+					"displayMode": 0
+				},
+				{
+					"name": "Physical Damage",
+					"values": [
+						[
+							"30-78",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 9
+				},
+				{
+					"name": "Critical Strike Chance",
+					"values": [
+						[
+							"6.50%",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 12
+				},
+				{
+					"name": "Attacks per Second",
+					"values": [
+						[
+							"1.30",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 13
+				},
+				{
+					"name": "Weapon Range",
+					"values": [
+						[
+							"11",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 14
+				}
+			],
+			"requirements": [{
+					"name": "Dex",
+					"values": [
+						[
+							"81",
+							0
+						]
+					],
+					"displayMode": 1
+				},
+				{
+					"name": "Int",
+					"values": [
+						[
+							"117",
+							0
+						]
+					],
+					"displayMode": 1
+				}
+			],
+			"implicitMods": [
+				"+46 Life gained for each Enemy hit by Attacks"
+			],
+			"frameType": 1,
+			"x": 1,
+			"y": 14,
+			"inventoryId": "Stash2",
+			"socketedItems": []
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/image/Art/2DItems/Currency/ProphecyOrbRed.png?v=dc9105d2b038a79c7c316fc2ba30cef0&w=1&h=1&scale=1",
+			"league": "Heist",
+			"id": "164d0c8e6410c03413d09814790bee8319c7f60b5898f634505fdb91d8aa8551",
+			"name": "",
+			"typeLine": "The Wealthy Exile",
+			"identified": true,
+			"ilvl": 0,
+			"descrText": "Right-click to add this prophecy to your character.",
+			"flavourText": [
+				"They flee from the eyes of Oriath, coated in gold from head to toe."
+			],
+			"prophecyText": "You will encounter and slay a Rogue Exile who wears only rare items.",
+			"frameType": 8,
+			"x": 0,
+			"y": 10,
+			"inventoryId": "Stash2"
+		},
+		{
+			"verified": false,
+			"w": 2,
+			"h": 2,
+			"icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetDexInt9.png?v=f16dbb804ba232a15e23b3539c67b774&w=2&h=2&scale=1",
+			"league": "Heist",
+			"id": "8150f160c77169959bd5abbbe224c9c4df8606a8718292eeccb97206c0c1aeda",
+			"sockets": [{
+					"group": 0,
+					"attr": "I",
+					"sColour": "B"
+				},
+				{
+					"group": 0,
+					"attr": "D",
+					"sColour": "G"
+				}
+			],
+			"name": "",
+			"typeLine": "Harlequin Mask",
+			"identified": false,
+			"ilvl": 72,
+			"properties": [{
+					"name": "Evasion Rating",
+					"values": [
+						[
+							"157",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 17
+				},
+				{
+					"name": "Energy Shield",
+					"values": [
+						[
+							"31",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 18
+				}
+			],
+			"requirements": [{
+					"name": "Dex",
+					"values": [
+						[
+							"64",
+							0
+						]
+					],
+					"displayMode": 1
+				},
+				{
+					"name": "Int",
+					"values": [
+						[
+							"64",
+							0
+						]
+					],
+					"displayMode": 1
+				}
+			],
+			"frameType": 2,
+			"x": 1,
+			"y": 19,
+			"inventoryId": "Stash2",
+			"socketedItems": []
+		},
+		{
+			"verified": false,
+			"w": 2,
+			"h": 2,
+			"icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsInt3.png?v=77abd4784ad8e1666ac1b956c565a80e&w=2&h=2&scale=1",
+			"league": "Heist",
+			"id": "783afb4dbde307deaca52df43e347a5b32d966a3887f37e67eda0c1f6cc0b048",
+			"sockets": [{
+				"group": 0,
+				"attr": "I",
+				"sColour": "B"
+			}],
+			"name": "Skull Tread",
+			"typeLine": "Arcanist Slippers",
+			"identified": true,
+			"ilvl": 71,
+			"properties": [{
+					"name": "Quality",
+					"values": [
+						[
+							"+9%",
+							1
+						]
+					],
+					"displayMode": 0,
+					"type": 6
+				},
+				{
+					"name": "Energy Shield",
+					"values": [
+						[
+							"66",
+							1
+						]
+					],
+					"displayMode": 0,
+					"type": 18
+				}
+			],
+			"requirements": [{
+					"name": "Level",
+					"values": [
+						[
+							"61",
+							0
+						]
+					],
+					"displayMode": 0
+				},
+				{
+					"name": "Int",
+					"values": [
+						[
+							"119",
+							0
+						]
+					],
+					"displayMode": 1
+				}
+			],
+			"explicitMods": [
+				"+24 to Intelligence",
+				"+16 to maximum Energy Shield",
+				"+79 to maximum Life",
+				"15% increased Movement Speed"
+			],
+			"frameType": 2,
+			"x": 0,
+			"y": 0,
+			"inventoryId": "Stash2",
+			"socketedItems": []
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 3,
+			"icon": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/OneHandSword3.png?v=0bf4b174a0c80b2fd80a12026ed04a05&w=1&h=3&scale=1",
+			"league": "Heist",
+			"id": "cbebdf2da178020c3611d9d9686988ab7b1114c8f1ebdaa737530eb1e568cf7e",
+			"sockets": [{
+					"group": 0,
+					"attr": "I",
+					"sColour": "B"
+				},
+				{
+					"group": 0,
+					"attr": "S",
+					"sColour": "R"
+				},
+				{
+					"group": 0,
+					"attr": "D",
+					"sColour": "G"
+				}
+			],
+			"name": "",
+			"typeLine": "Corsair Sword",
+			"identified": true,
+			"ilvl": 72,
+			"properties": [{
+					"name": "One Handed Sword",
+					"values": [],
+					"displayMode": 0
+				},
+				{
+					"name": "Physical Damage",
+					"values": [
+						[
+							"20-80",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 9
+				},
+				{
+					"name": "Critical Strike Chance",
+					"values": [
+						[
+							"5.00%",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 12
+				},
+				{
+					"name": "Attacks per Second",
+					"values": [
+						[
+							"1.55",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 13
+				},
+				{
+					"name": "Weapon Range",
+					"values": [
+						[
+							"11",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 14
+				}
+			],
+			"requirements": [{
+					"name": "Level",
+					"values": [
+						[
+							"58",
+							0
+						]
+					],
+					"displayMode": 0
+				},
+				{
+					"name": "Str",
+					"values": [
+						[
+							"81",
+							0
+						]
+					],
+					"displayMode": 1
+				},
+				{
+					"name": "Dex",
+					"values": [
+						[
+							"117",
+							0
+						]
+					],
+					"displayMode": 1
+				}
+			],
+			"implicitMods": [
+				"40% increased Global Accuracy Rating"
+			],
+			"frameType": 0,
+			"x": 1,
+			"y": 21,
+			"inventoryId": "Stash2",
+			"socketedItems": []
+		},
+		{
+			"verified": false,
+			"w": 2,
+			"h": 3,
+			"icon": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyDexInt4C.png?v=648a82d9c23d1c8e7546b8c3637bbb63&w=2&h=3&scale=1",
+			"league": "Heist",
+			"id": "f07f1269e77c39e2f8215e277193fb3855c74dfd2ebbc87234d03bfdf02d0bc3",
+			"sockets": [{
+					"group": 0,
+					"attr": "D",
+					"sColour": "G"
+				},
+				{
+					"group": 0,
+					"attr": "I",
+					"sColour": "B"
+				}
+			],
+			"name": "",
+			"typeLine": "Carnal Armour",
+			"identified": false,
+			"ilvl": 73,
+			"properties": [{
+					"name": "Evasion Rating",
+					"values": [
+						[
+							"353",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 17
+				},
+				{
+					"name": "Energy Shield",
+					"values": [
+						[
+							"98",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 18
+				}
+			],
+			"requirements": [{
+					"name": "Dex",
+					"values": [
+						[
+							"88",
+							0
+						]
+					],
+					"displayMode": 1
+				},
+				{
+					"name": "Int",
+					"values": [
+						[
+							"122",
+							0
+						]
+					],
+					"displayMode": 1
+				}
+			],
+			"implicitMods": [
+				"+21 to maximum Mana"
+			],
+			"frameType": 2,
+			"x": 5,
+			"y": 3,
+			"inventoryId": "Stash2",
+			"socketedItems": []
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/image/Art/2DItems/Currency/CurrencyUpgradeToMagic.png?v=333b8b5e28b73c62972fc66e7634c5c8&w=1&h=1&scale=1",
+			"stackSize": 6,
+			"maxStackSize": 40,
+			"league": "Heist",
+			"id": "3ecac79f8289773b7129346cf935e717cb010cc6d36abbc11d34169127937249",
+			"name": "",
+			"typeLine": "Orb of Transmutation",
+			"identified": true,
+			"ilvl": 0,
+			"properties": [{
+				"name": "Stack Size",
+				"values": [
+					[
+						"6/40",
+						0
+					]
+				],
+				"displayMode": 0,
+				"type": 32
+			}],
+			"explicitMods": [
+				"Upgrades a normal item to a magic item"
+			],
+			"descrText": "Right click this item then left click a normal item to apply it.",
+			"frameType": 5,
+			"x": 0,
+			"y": 2,
+			"inventoryId": "Stash2"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/image/Art/2DItems/Currency/CurrencyArmourQuality.png?v=251e204e4ec325f75ce8ef75b2dfbeb8&w=1&h=1&scale=1",
+			"stackSize": 6,
+			"maxStackSize": 40,
+			"league": "Heist",
+			"id": "8a0f0d6dca43f12b7a9b2115baee6a17b77d9ed97c8d6799baed72cc9f94f9a9",
+			"name": "",
+			"typeLine": "Armourer's Scrap",
+			"identified": true,
+			"ilvl": 0,
+			"properties": [{
+				"name": "Stack Size",
+				"values": [
+					[
+						"6/40",
+						0
+					]
+				],
+				"displayMode": 0,
+				"type": 32
+			}],
+			"explicitMods": [
+				"Improves the quality of an armour"
+			],
+			"descrText": "Right click this item then left click an armour to apply it. Has greater effect on lower-rarity armours. The maximum quality is 20%.",
+			"frameType": 5,
+			"x": 2,
+			"y": 0,
+			"inventoryId": "Stash2"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/image/Art/2DItems/Jewels/basicstr.png?v=5496129c557831c118a679c1001f3df9&w=1&h=1&scale=1",
+			"league": "Heist",
+			"id": "a0b62988e1798a9d93df7ff184283c3f2192af546eadeb4206f6013e4e9c882d",
+			"name": "",
+			"typeLine": "Vivid Crimson Jewel",
+			"identified": true,
+			"ilvl": 70,
+			"explicitMods": [
+				"5% increased maximum Life"
+			],
+			"descrText": "Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.",
+			"frameType": 1,
+			"x": 0,
+			"y": 13,
+			"inventoryId": "Stash2"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/image/Art/2DItems/Jewels/basicdex.png?v=7375b3bb90a9809870b31d1aa4aa68b9&w=1&h=1&scale=1",
+			"league": "Heist",
+			"id": "3af0dd01969bf4ca97f415e03714779860469d09966fa761fb6eb88cc0a2c9c4",
+			"name": "",
+			"typeLine": "Viridian Jewel",
+			"identified": false,
+			"ilvl": 70,
+			"descrText": "Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.",
+			"frameType": 2,
+			"x": 0,
+			"y": 6,
+			"inventoryId": "Stash2"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?v=a8ae131b97fad3c64de0e6d9f250d743&w=1&h=1&scale=1",
+			"stackSize": 1,
+			"maxStackSize": 2,
+			"league": "Heist",
+			"id": "e11acb0e42958480c95f82ac2894d3d25e93ae904c36ef6fcd83141bc3895062",
+			"name": "",
+			"typeLine": "The Lover",
+			"identified": true,
+			"ilvl": 0,
+			"properties": [{
+				"name": "Stack Size",
+				"values": [
+					[
+						"1/2",
+						0
+					]
+				],
+				"displayMode": 0,
+				"type": 32
+			}],
+			"explicitMods": [
+				"<rareitem>{Jewellery}\r\n<default>{Item Level:} <normal>{79}"
+			],
+			"flavourText": [
+				"<size:26>{\"I wanted to give you three things. I've given you my eternal love. I've sung to you my most beautiful song. I'd have given you the moon last, but it couldn't be found. I hope you'll accept this instead.\"}"
+			],
+			"frameType": 6,
+			"artFilename": "TheLover",
+			"x": 0,
+			"y": 21,
+			"inventoryId": "Stash2"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?v=a8ae131b97fad3c64de0e6d9f250d743&w=1&h=1&scale=1",
+			"stackSize": 1,
+			"maxStackSize": 7,
+			"league": "Heist",
+			"id": "ab835d771ba9f49639fb66d9260dc0d7ec2fec55d8567335f311c307355b7486",
+			"name": "",
+			"typeLine": "Lantador's Lost Love",
+			"identified": true,
+			"ilvl": 0,
+			"properties": [{
+				"name": "Stack Size",
+				"values": [
+					[
+						"1/7",
+						0
+					]
+				],
+				"displayMode": 0,
+				"type": 32
+			}],
+			"explicitMods": [
+				"<rareitem>{Two-Stone Ring}"
+			],
+			"flavourText": [
+				"<smaller>{They fought the storm together as one, \r",
+				"Until the longest of days was done. \r",
+				"Their love grew stronger\r",
+				"with every breath, \r",
+				"Until it was broken apart in death.}"
+			],
+			"frameType": 6,
+			"artFilename": "LantadorsLostLove",
+			"x": 0,
+			"y": 12,
+			"inventoryId": "Stash2"
+		},
+		{
+			"verified": false,
+			"w": 2,
+			"h": 1,
+			"icon": "https://web.poecdn.com/image/Art/2DItems/Belts/Belt6.png?v=c6603b23e7ea1431c247869e74262a58&w=2&h=1&scale=1",
+			"league": "Heist",
+			"id": "fbb236294c79db0be0c49753365b6e9fb0789473fa115e742913804d0d701c23",
+			"name": "Armageddon Bond",
+			"typeLine": "Studded Belt",
+			"identified": true,
+			"ilvl": 70,
+			"requirements": [{
+				"name": "Level",
+				"values": [
+					[
+						"35",
+						0
+					]
+				],
+				"displayMode": 0
+			}],
+			"implicitMods": [
+				"25% increased Stun Duration on Enemies"
+			],
+			"explicitMods": [
+				"+21 to Armour",
+				"+74 to maximum Life",
+				"+9% to Cold Resistance",
+				"+17% to Lightning Resistance"
+			],
+			"veiledMods": [
+				"Suffix06"
+			],
+			"veiled": true,
+			"frameType": 2,
+			"x": 0,
+			"y": 7,
+			"inventoryId": "Stash2"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/image/Art/2DItems/Amulets/Amulet6.png?v=bc7ee6ba515d5f34cfaf7daec1571c52&w=1&h=1&scale=1",
+			"league": "Heist",
+			"id": "0230a393466be6ea62431c00724027922a6106a6ce02f46fc9442f9cc72d02f8",
+			"name": "",
+			"typeLine": "Gold Amulet",
+			"identified": false,
+			"ilvl": 70,
+			"implicitMods": [
+				"15% increased Rarity of Items found"
+			],
+			"frameType": 2,
+			"x": 0,
+			"y": 9,
+			"inventoryId": "Stash2"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/image/Art/2DItems/Rings/MoonstoneRing.png?v=4715c1b82b9843bf4b12f0aad25b3f26&w=1&h=1&scale=1",
+			"league": "Heist",
+			"id": "d96d5111bf0fd3d0bd11f87dd7edd92e43c0eadbb8eba1b68a63910fdc8a2288",
+			"name": "",
+			"typeLine": "Moonstone Ring",
+			"identified": false,
+			"ilvl": 70,
+			"implicitMods": [
+				"+18 to maximum Energy Shield"
+			],
+			"frameType": 2,
+			"x": 0,
+			"y": 5,
+			"inventoryId": "Stash2"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/image/Art/2DItems/Rings/Ring1.png?v=7c04d5a65caa0371eccfe06a129a7407&w=1&h=1&scale=1",
+			"league": "Heist",
+			"id": "d5a964debe785f6ebda9acb626d53fa80bd8f8307c5bcc48be4513cc1601d4ca",
+			"name": "",
+			"typeLine": "Iron Ring",
+			"identified": false,
+			"ilvl": 70,
+			"implicitMods": [
+				"Adds 1 to 4 Physical Damage to Attacks"
+			],
+			"frameType": 2,
+			"x": 0,
+			"y": 8,
+			"inventoryId": "Stash2"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/image/Art/2DItems/Jewels/GlacialHammerThreshold.png?v=9371b2824eb84826b5ac0c7758cef249&w=1&h=1&scale=1",
+			"league": "Heist",
+			"id": "ebf72300507bc9bad13ca4e58bb50c0bdccdeb01e2e7f8f40365d278abd71f76",
+			"name": "",
+			"typeLine": "Crimson Jewel",
+			"identified": false,
+			"ilvl": 70,
+			"properties": [{
+				"name": "Limited to",
+				"values": [
+					[
+						"2",
+						0
+					]
+				],
+				"displayMode": 0
+			}],
+			"descrText": "Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.",
+			"frameType": 3,
+			"x": 2,
+			"y": 16,
+			"inventoryId": "Stash2"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/image/Art/2DItems/Currency/CurrencyUpgradeMagicToRare.png?v=1187a8511b47b35815bd75698de1fa2a&w=1&h=1&scale=1",
+			"stackSize": 1,
+			"maxStackSize": 10,
+			"league": "Heist",
+			"id": "5f9f3e60101bf5a9cb55b3218a17b729501cbd7a00862657d70aa98fb37dd872",
+			"name": "",
+			"typeLine": "Regal Orb",
+			"identified": true,
+			"ilvl": 0,
+			"properties": [{
+				"name": "Stack Size",
+				"values": [
+					[
+						"1/10",
+						0
+					]
+				],
+				"displayMode": 0,
+				"type": 32
+			}],
+			"explicitMods": [
+				"Upgrades a magic item to a rare item"
+			],
+			"descrText": "Right click this item then left click a magic item to apply it. Current modifiers are retained and a new one is added. The item's Catalyst quality increases the chance of applying a modifier which matches the quality type. Removes 5% Quality applied by Catalysts on use.",
+			"frameType": 5,
+			"x": 2,
+			"y": 13,
+			"inventoryId": "Stash2"
+		},
+		{
+			"verified": false,
+			"w": 2,
+			"h": 2,
+			"icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesStrInt3.png?v=6121a1f24b6a6b016f4f62266feb4965&w=2&h=2&scale=1",
+			"league": "Heist",
+			"id": "a59fd4ca01c63096f646308363bc0be1359eb39dac42285cc773562fdd07976b",
+			"sockets": [{
+					"group": 0,
+					"attr": "S",
+					"sColour": "R"
+				},
+				{
+					"group": 0,
+					"attr": "S",
+					"sColour": "R"
+				}
+			],
+			"name": "",
+			"typeLine": "Crusader Gloves",
+			"identified": false,
+			"ilvl": 73,
+			"properties": [{
+					"name": "Armour",
+					"values": [
+						[
+							"121",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 16
+				},
+				{
+					"name": "Energy Shield",
+					"values": [
+						[
+							"24",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 18
+				}
+			],
+			"requirements": [{
+					"name": "Str",
+					"values": [
+						[
+							"51",
+							0
+						]
+					],
+					"displayMode": 1
+				},
+				{
+					"name": "Int",
+					"values": [
+						[
+							"51",
+							0
+						]
+					],
+					"displayMode": 1
+				}
+			],
+			"frameType": 2,
+			"x": 3,
+			"y": 17,
+			"inventoryId": "Stash2",
+			"socketedItems": []
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/image/Art/2DItems/Currency/CurrencyIdentification.png?v=1b9b38c45be95c59d8900f91b2afd58b&w=1&h=1&scale=1",
+			"stackSize": 1,
+			"maxStackSize": 40,
+			"league": "Heist",
+			"id": "4fa48bab7801780c7b6d0df5615e95e91327fc2287555222ca89625817a8ea94",
+			"name": "",
+			"typeLine": "Scroll of Wisdom",
+			"identified": true,
+			"ilvl": 0,
+			"properties": [{
+				"name": "Stack Size",
+				"values": [
+					[
+						"1/40",
+						0
+					]
+				],
+				"displayMode": 0,
+				"type": 32
+			}],
+			"explicitMods": [
+				"Identifies an item"
+			],
+			"descrText": "Right click this item then left click an unidentified item to apply it.",
+			"frameType": 5,
+			"x": 0,
+			"y": 16,
+			"inventoryId": "Stash2"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/image/Art/2DItems/Currency/CurrencyMapQuality.png?v=f46e0a1af7223e2d4cae52bc3f9f7a1f&w=1&h=1&scale=1",
+			"stackSize": 2,
+			"maxStackSize": 20,
+			"league": "Heist",
+			"id": "68a97b297da4d68a060eb8d54f4037f6076b672374e38e5336d678dbfc2dbc4b",
+			"name": "",
+			"typeLine": "Cartographer's Chisel",
+			"identified": true,
+			"ilvl": 0,
+			"properties": [{
+				"name": "Stack Size",
+				"values": [
+					[
+						"2/20",
+						0
+					]
+				],
+				"displayMode": 0,
+				"type": 32
+			}],
+			"explicitMods": [
+				"Improves the quality of a map"
+			],
+			"descrText": "Right click this item then left click a map to apply it. Has greater effect on lower-rarity maps. The maximum quality is 20%.",
+			"frameType": 5,
+			"x": 2,
+			"y": 12,
+			"inventoryId": "Stash2"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/image/Art/2DItems/Maps/Labyrinth.png?v=ef005aef5d2f9135d6922f4b1b912f78&w=1&h=1&scale=1",
+			"league": "Heist",
+			"id": "ac00a705eafcddbd6485d0cb3b24990616aff64b40e846d902a4920b3c8e484a",
+			"name": "",
+			"typeLine": "Offering to the Goddess",
+			"identified": true,
+			"ilvl": 0,
+			"descrText": "Travel to the Aspirants' Plaza and spend this item to open the Eternal Labyrinth. You must have completed the six different Trials of Ascendancy found in Maps in order to access this area.",
+			"flavourText": [
+				"It is time for the Goddess to give her final verdict.\r",
+				"Your fate rests in her even hands."
+			],
+			"frameType": 0,
+			"x": 0,
+			"y": 20,
+			"inventoryId": "Stash2"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/image/Art/2DItems/Maps/Vaal04.png?v=72207b7e72a4ed4fafd3e72f7b0b2a93&w=1&h=1&scale=1",
+			"league": "Heist",
+			"id": "03c8e5ff958e44143daab47c4d01d6a7bae319a03b06a6f1282c62704afebae2",
+			"name": "",
+			"typeLine": "Sacrifice at Dusk",
+			"identified": true,
+			"ilvl": 0,
+			"descrText": "Can be used in a personal Map Device.",
+			"flavourText": [
+				"The Vaal shall never fear the setting of our sun."
+			],
+			"frameType": 0,
+			"x": 0,
+			"y": 14,
+			"inventoryId": "Stash2"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/image/Art/2DItems/Maps/Vaal01.png?v=3b21ce0cd4c0b9e8cf5db6257daf831a&w=1&h=1&scale=1",
+			"league": "Heist",
+			"id": "a00bf85ded87427bf350d40566bd11cabd3fddafa872681cb4b8903acc79d289",
+			"name": "",
+			"typeLine": "Sacrifice at Midnight",
+			"identified": true,
+			"ilvl": 0,
+			"descrText": "Can be used in a personal Map Device.",
+			"flavourText": [
+				"Look to our Queen, for she will lead us into the light."
+			],
+			"frameType": 0,
+			"x": 0,
+			"y": 17,
+			"inventoryId": "Stash2"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/image/Art/2DItems/Maps/Vaal04.png?v=72207b7e72a4ed4fafd3e72f7b0b2a93&w=1&h=1&scale=1",
+			"league": "Heist",
+			"id": "3caf6f6b8afa178a1fceb9a58d60cf0d9349c90e87f492919f5e97addd51bfb4",
+			"name": "",
+			"typeLine": "Sacrifice at Dusk",
+			"identified": true,
+			"ilvl": 0,
+			"descrText": "Can be used in a personal Map Device.",
+			"flavourText": [
+				"The Vaal shall never fear the setting of our sun."
+			],
+			"frameType": 0,
+			"x": 0,
+			"y": 15,
+			"inventoryId": "Stash2"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/image/Art/2DItems/Currency/CurrencyAddModToMagic.png?v=97e63b85807f2419f4208482fd0b4859&w=1&h=1&scale=1",
+			"stackSize": 2,
+			"maxStackSize": 30,
+			"league": "Heist",
+			"id": "566045dba2de61fbda6d9b7eb9949a74fb8599074cdece809e609f4f8a7b14cb",
+			"name": "",
+			"typeLine": "Orb of Augmentation",
+			"identified": true,
+			"ilvl": 0,
+			"properties": [{
+				"name": "Stack Size",
+				"values": [
+					[
+						"2/30",
+						0
+					]
+				],
+				"displayMode": 0,
+				"type": 32
+			}],
+			"explicitMods": [
+				"Augments a magic item with a new random modifier"
+			],
+			"descrText": "Right click this item then left click a magic item to apply it. Magic items can have up to two random modifiers. The item's Catalyst quality increases the chance of applying a modifier which matches the quality type. Removes 2% Quality applied by Catalysts on use.",
+			"frameType": 5,
+			"x": 1,
+			"y": 4,
+			"inventoryId": "Stash2"
+		}
+	]
+}
