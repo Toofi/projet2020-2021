@@ -6,7 +6,7 @@ document.getElementById("gasoil").onclick = () => {
     .then((response) => {
       response.text().then((text) => { 
         document.getElementById('content').innerHTML = text;
-        gasoil.coucou();
+        gasoil.fetchGasoil();
       });
     });
 };

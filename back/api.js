@@ -1,5 +1,6 @@
 const express = require('express');
 const bodyParser = require('body-parser');
+const cors = require('cors');
 
 const db = require('./connect');
 const { json } = require('express');
@@ -7,6 +8,7 @@ const { json } = require('express');
 const app = express();
 const port = 3000;
 
+app.use(cors());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.get('/api/', (req, res) => res.send('coucou!'));
 app.get('/api/gasoil/', (req, res) => {
