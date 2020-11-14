@@ -69,3 +69,7 @@ green: #21ED83
 .container {
   margin: 20px;
 }
+
+.chart {
+  width: 50px;
+}

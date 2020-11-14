@@ -7,6 +7,7 @@ document.getElementById("gasoil").onclick = () => {
       response.text().then((text) => { 
         document.getElementById('content').innerHTML = text;
         gasoil.fetchGasoil();
+        gasoil.getChart();
       });
     });
 };
