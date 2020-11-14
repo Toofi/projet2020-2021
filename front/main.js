@@ -1,8 +1,6 @@
-console.log("coucou");
-
-document.getElementById("gasoil").addEventListener('click', (e) =>{
+document.getElementById("gasoil").onclick = () => {
   console.log("click on gasoil");
-});
+};
 
 document.getElementById("essence").addEventListener('click', (e) =>{
   console.log("click on essence");
