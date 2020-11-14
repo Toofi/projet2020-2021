@@ -1,5 +1,14 @@
+import * as gasoil from './modules/gasoil.js';
+
 document.getElementById("gasoil").onclick = () => {
-  console.log("click on gasoil");
+  console.log("click on gasoil")
+  fetch('./views/gasoil.html', { method: 'GET' })
+    .then((response) => {
+      response.text().then((text) => { 
+        document.getElementById('content').innerHTML = text;
+        gasoil.coucou();
+      });
+    });
 };
 
 document.getElementById("essence").addEventListener('click', (e) =>{

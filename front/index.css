@@ -1,4 +1,14 @@
 @import url("https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+/*
+light black : #353531
+red: #EC4E20
+yellow: #FF9505
+blue: #016FB9
+black: #000000
+green: #21ED83
+*/
 
 .sidebar {
   height: 100%;
@@ -7,21 +17,55 @@
   top: 0;
   left: 0;
   overflow: hidden;
-  padding-top: 60px;
-  background-color: grey;
+  padding-top: 20px;
+  background-color: #FFFFFF;
   width: 200px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.sidebar .logo {
+  border-left: solid 3px #EC4E20;
 }
 
 .sidebar a {
+  text-decoration: none;
+  color: #353531;
+
+}
+
+.sidebar .link {
+  /* margin-left: 5px; */
+  color: #353531;
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
   display: block;
+  border-left: solid 0px #EC4E20;
+  transition: border-left 0.2s;
+}
+
+.sidebar .link:hover {
+  border-left: solid 12px #EC4E20;
+}
+
+.logo {
+  font-family: 'Nunito', sans-serif;
+  font-size: 24px;
+  text-align: center;
+}
+
+.links { 
+  padding-top: 60px;
 }
 
 .content {
   height: 100%;
+  width: 100%;
   position: fixed;
   margin-left: 200px;
-  background-color: wheat;
+  background-color: #FFFFFF;
+}
+
+.container {
+  margin: 20px;
 }
