@@ -1,33 +1,33 @@
+## Projet 2020-2021
+
 Projet de Quentin Herpoel
 
-Réaliser un dashboard de gestion des stocks
+## Installation
 
-On simule l'utilisation d'une gestion de stocks.
+Use the package manager [npm](https://www.npmjs.com/) to install dependencies in each folder, front and back.
 
-Avec un menu latéral gauche, je peux cliquer sur un des stocks que je veux contrôler. J'aurai dans le bandeau de droite une overview avec l'évolution des stocks dans le temps, le détail des stocks et éventuellement d'autres stocks.
+```
+npm install
+```
 
-Dans l'overview je peux cliquer sur un bouton pour faire une entrée ou une sortie des stocks (POST). Post car en réalité cela crée une ligne dans la table avec la nouvelle valeur de stocks ainsi que les infos de logs (date, etc). Il faudra en réalité calculer la différence entre le mouvement de stock entré et la dernière ligne de stock (exemple, entrée user de -15 litres sur le stock actuel de 355, donc POST de 340 litres)
+## Run the environnment
 
-Dans l'overview je peux modifier le nom du stock (PUT), et modifier une des modifications de stocks (PUT, à voir). Je peux également supprimer un état de stocks (DELETE, à voir).
+In each folder, you just have to write in a terminal :
 
-Dans l'overview je peux supprimer un stock entièrement. (DELETE)
+```
+npm run dev
+```
 
-Dans le bandeau de droite je peux créer un nouveau stock.
+## What's the project
+
+The project is a fuel inventory manager. With a left sidebar, we can choose the product we want to manage. At the right side, we will have an overview with the stock in time, the stock detail, etc. We can click on buttons to add, update or delete a value in the stock. For the add function, the user can enter the value added or substracted, and the app will do the difference with the last value before add the new value. In the overview we can also modify the stock name. In the sidebar we can also add a new stock.
 
 TABLE Stocks_list
 id: int
-stock_id : int
+stock_id : int (stock_name id)
+stock_date : datetime
 
 TABLE Stock_name
 id : int
 name : string
 stock : int
-
-
-TABLE logs
-id : int
-Stock_id : int
-stock_value : int
-log : date
-
-Utiliser d3.js pour la représentation du stock.
