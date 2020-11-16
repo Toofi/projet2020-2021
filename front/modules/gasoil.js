@@ -1,10 +1,23 @@
+let data = [];
+let data2 = [];
+let stock_date = [];
+let stock_level = [];
+
 export let fetchGasoil = () => {
   fetch('http://localhost:3000/api/gasoil/', { method: 'GET' })
   .then((response) => {
-    console.log(response);
     response.text().then((text) => {
-      console.log(text);
-    });
+      data = JSON.parse(text);
+      console.log(data);
+      if(stock_date.length == 0 && stock_level.length == 0){
+        for (let i = 0; i < data.length; i++){
+          stock_date.push(new Date(Date.parse(data[i]['stock_date'])));
+          stock_level.push(data[i]['stock_level']);
+        }
+      }
+      console.log(stock_date);
+      console.log(stock_level);
+    })
   })
 };
 
@@ -17,16 +30,19 @@ export function getChart() {
 
     // The data for our dataset
     data: {
-      labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+      labels: stock_date,
       datasets: [{
-        label: 'My First dataset',
-        backgroundColor: 'rgb(255, 99, 132)',
-        borderColor: 'rgb(255, 99, 132)',
-        data: [0, 10, 5, 2, 20, 30, 45]
+        label: 'Quantity (liters)',
+        backgroundColor: 'rgb(1, 111, 185)',
+        borderColor: 'rgb(236, 78, 32)',
+        data: stock_level
       }]
     },
 
     // Configuration options go here
-    options: {}
+    options: {
+      responsive: true,
+      maintainAspectRatio: false
+    }
   });
 }
