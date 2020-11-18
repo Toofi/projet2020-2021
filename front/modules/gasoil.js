@@ -1,22 +1,27 @@
-let data = [];
-let data2 = [];
-let stock_date = [];
-let stock_level = [];
-
+let data;
+const stockDate = [];
+const stockLevel = [];
+//a factoriser dans un module de connexion !
 export let fetchGasoil = () => {
   fetch('http://localhost:3000/api/gasoil/', { method: 'GET' })
   .then((response) => {
     response.text().then((text) => {
       data = JSON.parse(text);
       console.log(data);
-      if(stock_date.length == 0 && stock_level.length == 0){
+      if(stockDate.length == 0 && stockLevel.length == 0){
         for (let i = 0; i < data.length; i++){
-          stock_date.push(new Date(Date.parse(data[i]['stock_date'])));
-          stock_level.push(data[i]['stock_level']);
+          stockDate.push(new Date(Date.parse(data[i]['stock_date'])));
+          stockLevel.push(data[i]['stock_level']);
         }
       }
-      console.log(stock_date);
-      console.log(stock_level);
+      //a factoriser dans un module de formattage !
+        for(let i = 0; i < stockDate.length; i++){
+          stockDate[i] = stockDate[i].getDate()+"/"+stockDate[i].getMonth()+"/"+stockDate[i].getFullYear()+" "+stockDate[i].getHours()+":"+stockDate[i].getMinutes()+":"+stockDate[i].getSeconds();
+        }
+      console.log(stockDate);
+      console.log(stockDate[0]);
+      console.log(stockLevel);
+      getChart();
     })
   })
 };
@@ -30,12 +35,13 @@ export function getChart() {
 
     // The data for our dataset
     data: {
-      labels: stock_date,
+      labels: stockDate,
       datasets: [{
         label: 'Quantity (liters)',
-        backgroundColor: 'rgb(1, 111, 185)',
+        backgroundColor: 'rgb(236, 78, 32)',
         borderColor: 'rgb(236, 78, 32)',
-        data: stock_level
+        pointBorderWidth: 2.5,
+        data: stockLevel
       }]
     },
 
