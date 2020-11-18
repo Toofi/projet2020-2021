@@ -73,3 +73,8 @@ green: #21ED83
 .chart {
   width: 50px;
 }
+
+.chart-container {
+  width: 1000px;
+  height: 600px;
+}
