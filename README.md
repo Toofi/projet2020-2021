@@ -31,3 +31,14 @@ TABLE Stock_name
 id : int
 name : string
 stock : int
+
+## Dependancies
+
+BACK
++nodemon
++express
++mysql
+
+FRONT
++http-server
++chart.js

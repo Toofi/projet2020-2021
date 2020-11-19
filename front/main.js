@@ -1,12 +1,12 @@
-import * as gasoil from './modules/gasoil.js';
+import * as diesel from './modules/diesel.js';
 
-document.getElementById("gasoil").onclick = () => {
-  console.log("click on gasoil")
-  fetch('./views/gasoil.html', { method: 'GET' })
+document.getElementById("diesel").onclick = () => {
+  console.log("click on diesel")
+  fetch('./views/diesel.html', { method: 'GET' })
     .then((response) => {
       response.text().then((text) => { 
         document.getElementById('content').innerHTML = text;
-        gasoil.fetchGasoil();
+        diesel.fetchDiesel('gasoil');
       });
     });
 };
