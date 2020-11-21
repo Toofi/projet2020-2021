@@ -1,4 +1,4 @@
-export function getLineChart(labels, data) {
+export let getLineChart = (labels, data) => {
   let ctx = document.getElementById('myChart').getContext('2d');
 
   let chart = new Chart(ctx, {

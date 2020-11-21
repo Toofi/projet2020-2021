@@ -5,7 +5,6 @@ document.getElementById("diesel").onclick = () => {
   fetch('./views/diesel.html', { method: 'GET' })
     .then((response) => {
       response.text().then((text) => { 
-        document.getElementById('content').innerHTML = text;
         diesel.fetchDiesel('gasoil');
       });
     });

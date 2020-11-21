@@ -10,5 +10,5 @@ export let fetchStocks = (stock) => {
       .catch((response) => {
         reject('Impossible de se connecter à l\'API');
       });
-  })
+  });
 };
