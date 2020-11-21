@@ -62,19 +62,21 @@ green: #21ED83
   height: 100%;
   width: 100%;
   position: fixed;
-  margin-left: 200px;
+  padding-left: 200px;
   background-color: #FFFFFF;
-}
-
-.container {
   margin: 20px;
 }
 
-.chart {
-  width: 50px;
+.container {
+
 }
 
 .chart-container {
   width: 640px;
-  height: 480px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.chart {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }

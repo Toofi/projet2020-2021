@@ -10,9 +10,9 @@ export function getLineChart(labels, data) {
       labels: labels,
       datasets: [{
         label: 'Quantity (liters)',
-        backgroundColor: 'rgb(236, 78, 32)',
+        // backgroundColor: 'rgb(236, 78, 32)',
         borderColor: 'rgb(236, 78, 32)',
-        pointBorderWidth: 2.5,
+        pointBorderWidth: 1.5,
         data: data
       }]
     },

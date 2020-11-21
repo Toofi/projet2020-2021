@@ -3,15 +3,11 @@ export let formatDate = (date) => {
 }
 
 export let formatData = (data) => {
-let stockObj = {
-  stockDates: [],
-  stockLevels: []
-}
-  for (let i = 0; i < data.length; i++) {
-    stockObj.stockDates.push(new Date(Date.parse(data[i]['stock_date'])));
-    //a factoriser dans un module de formattage !
-    stockObj.stockDates[i] = formatDate(stockObj.stockDates[i]);
-    stockObj.stockLevels.push(data[i]['stock_level']);
+  let stockObj = {
+    stockDates: [],
+    stockLevels: []
   }
+  stockObj.stockDates = data.map(element => formatDate(new Date(Date.parse(element.stock_date))));
+  stockObj.stockLevels = data.map(element => element.stock_level);
   return stockObj;
 };
