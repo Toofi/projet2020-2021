@@ -3,8 +3,12 @@ export let fetchStocks = (stock) => {
     fetch('http://localhost:3000/api/' + stock + '/', { method: 'GET' })
       .then((response) => {
         response.text().then((text) => {
-          let data = JSON.parse(text);
-          resolve(data);
+          try {
+            let data = JSON.parse(text);
+            resolve(data);
+          } catch {
+            reject('Impossible de convertir les données !');
+          }
         })
       })
       .catch((response) => {

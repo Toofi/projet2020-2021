@@ -7,7 +7,7 @@ export let fetchDiesel = async (stock) => {
   let data = await connexion.fetchStocks('Gasoil');
   var diesel = format.formatData(data);
   console.log(diesel.stockDates);
-  document.getElementById('content').innerHTML = template.getTemplate(diesel);
+  document.getElementById('content').innerHTML = template.getTemplate(diesel.stockDates, diesel.stockLevels);
   chart.getLineChart(diesel.stockDates, diesel.stockLevels);
 
 };
