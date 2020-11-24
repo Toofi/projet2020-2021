@@ -1,5 +1,6 @@
 @import url("https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css");
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap');
 
 /*
 light black : #353531
@@ -8,7 +9,15 @@ yellow: #FF9505
 blue: #016FB9
 black: #000000
 green: #21ED83
+light grey: #E1E1E1
 */
+
+h1 {
+  padding-top: 15px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 24px;
+
+}
 
 .sidebar {
   height: 100%;
@@ -21,10 +30,7 @@ green: #21ED83
   background-color: #FFFFFF;
   width: 200px;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-}
 
-.sidebar .logo {
-  border-left: solid 3px #EC4E20;
 }
 
 .sidebar a {
@@ -49,12 +55,24 @@ green: #21ED83
 }
 
 .logo {
+  padding-top: 5px;
+  padding-bottom: 5px;
   font-family: 'Nunito', sans-serif;
   font-size: 24px;
+  color: #000000;
   text-align: center;
+  border-left: solid 3px #EC4E20;
+  transition: background-color 0.8s, border-left 1s, color 1s;
+}
+
+.logo:hover {
+  background-color: #EC4E20;
+  border-left: solid 3px white;
+  color: #353531;
 }
 
 .links { 
+  font-family: 'Merriweather', serif;
   padding-top: 60px;
 }
 
@@ -65,18 +83,71 @@ green: #21ED83
   padding-left: 200px;
   background-color: #FFFFFF;
   margin: 20px;
+
+  overflow: auto;
+
 }
 
 .container {
-
-}
-
-.chart-container {
   width: 640px;
   margin-left: auto;
   margin-right: auto;
 }
 
+.chart-container {
+
+}
+
 .chart {
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+table {
+  width: 100%;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  font-family: 'Nunito', sans-serif;
+
+}
+
+th {
+  border-bottom: 1px solid black;
+  font-size: 18px;
+  background-color: #E1E1E1;
+}
+
+td {
+  border: 1px solid white;
+  border-bottom: 1px solid black;
+}
+
+.btn-container {
+  display: flex;
+
+}
+
+.btn {
+  flex-grow: 1;
+  padding: 15px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  color: #353531;
+  border: none;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  transition: box-shadow 0.2s;
+}
+
+.btn:hover, .btn:focus {
+  box-shadow: none;
+}
+
+.btn-add {
+  background-color: #21ED83;
+}
+
+.btn-upd {
+  background-color: #016FB9;
+}
+
+.btn-del {
+  background-color: #EC4E20;
 }
