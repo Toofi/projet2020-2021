@@ -10,4 +10,14 @@ export let fetchDiesel = async (stock) => {
   document.getElementById('content').innerHTML = template.getTemplate(diesel.stockDates, diesel.stockLevels);
   chart.getLineChart(diesel.stockDates, diesel.stockLevels);
 
+  document.getElementById('btn-add').onclick = () => {
+    openModal();
+  };
+  
+  const openModal = (e) => {
+    const target = document.getElementById('modal');
+    console.log(target);
+    target.style.display = null;
+  }
+  
 };

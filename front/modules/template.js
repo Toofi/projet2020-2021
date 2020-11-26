@@ -17,7 +17,13 @@ export let getTemplate = (stockDates, stockLevels) => {
     </tr>
       ${stockParkour(stockDates, stockLevels)}
     </table>
-</div>
+    <div id="modal" class="modal" style="display: none;">
+    <div class="modal-wrapper">
+      <p>some text in the modal</p>
+      <input type="text">Coucou</input>
+    </div>
+  </div>
+  </div>
 `
 };
 

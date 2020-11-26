@@ -1,7 +1,7 @@
 import * as diesel from './modules/diesel.js';
 
 document.getElementById("diesel").onclick = () => {
-  console.log("click on diesel")
+  console.log("click on diesel");
   diesel.fetchDiesel('gasoil');
 };
 
