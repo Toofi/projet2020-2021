@@ -157,6 +157,7 @@ td {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-left: 120px;
   top: 0;
   left: 0;
   width: 100%;
@@ -172,5 +173,29 @@ td {
   max-height: calc(100vh - 20px);
   padding: 20px;
   background-color: #fff;
+
+}
+
+.modal-title {
+  font-family: 'Nunito', sans-serif;
+  font-size: 24px;
+}
+
+.modal-form {
+  width: 500px;
+  margin: auto;
+
+}
+
+.modal-label {
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  
+}
+
+.modal-input {
+}
+
+.modal-btn {
 
 }

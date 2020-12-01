@@ -18,20 +18,42 @@ export let getTemplate = (stockDates, stockLevels) => {
       ${stockParkour(stockDates, stockLevels)}
     </table>
     <div id="modal" class="modal" style="display: none;">
-    <div class="modal-wrapper">
-      <p>some text in the modal</p>
-      <input type="text">Coucou</input>
     </div>
   </div>
   </div>
-`
+  `
+};
+
+export let getModal = (action) => {
+  switch (action) {
+    case 'add':
+      return `
+      <div class="modal-wrapper">
+        <h1>Ajouter un mouvement</h1>
+        <div class="modal-form">
+          <label for="quantity" class="modal-label">Quantité </label>
+          <input type="texte" class="modal-input" name="quantity"></input><br />
+          <button type="button" class="btn btn-add modal-btn" id="btn-confirm">Confirmer</button>
+          <button type="button" class="btn btn-del modal-btn" id="btn-cancel">Annuler</button>
+        </div>
+      </div>
+      `
+    case 'update':
+
+      break;
+    case 'delete':
+
+      break;
+    default:
+      break;
+  }
 };
 
 export let stockParkour = (stockDates, stockLevels) => {
   let table = [];
-  for (let i = 0; i < stockDates.length && i < stockLevels.length; i++){
+  for (let i = 0; i < stockDates.length && i < stockLevels.length; i++) {
     table = [...table, `<tr><td>${stockDates[i]}</td><td>${stockLevels[i]}</td></tr>`];
   }
-  table = table.reverse();
+  table = table.reverse(); // (╯°□°）╯︵ ┻━┻
   return table;
-}
+};
