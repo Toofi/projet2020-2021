@@ -1,4 +1,4 @@
-export let fetchStocks = (stock) => {
+export let fetchStock = (stock) => {
   return new Promise((resolve, reject) => {
     fetch('http://localhost:3000/api/' + stock + '/', { method: 'GET' })
       .then((response) => {
@@ -14,5 +14,13 @@ export let fetchStocks = (stock) => {
       .catch((response) => {
         reject('Impossible de se connecter à l\'API');
       });
+  });
+};
+
+
+export let addStock = (stock) => {
+  return new Promise((resolve, reject) => {
+    fetch('http://localhost:3000/api/' + stock + '/', { method: 'POST' })
+      .then()
   });
 };
