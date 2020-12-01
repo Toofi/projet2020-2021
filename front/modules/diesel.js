@@ -4,7 +4,7 @@ import * as chart from './getLineChart.js';
 import * as template from './template.js';
 
 export let fetchDiesel = async (stock) => {
-  let data = await connexion.fetchStock('Gasoil');
+  let data = await connexion.fetchStock('gasoil');
   var diesel = format.formatData(data);
   console.log(diesel.stockDates);
   document.getElementById('content').innerHTML = template.getTemplate(diesel.stockDates, diesel.stockLevels);
@@ -28,7 +28,7 @@ export let fetchDiesel = async (stock) => {
     target.style.display = null;
 
     document.getElementById('btn-confirm').onclick = () => {
-      await connexion.addStock();
+      connexion.addStock('gasoil', data);
     };
 
     document.getElementById('btn-cancel').onclick = () => {
