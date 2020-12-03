@@ -29,18 +29,26 @@ export let addStock = (stock, dataFetched) => {
       var stockId = 1;
       console.log(stockId);
       break;
-  
+
     default:
       break;
   }
 
-  return new Promise((resolve, reject) => {
-    fetch('http://localhost:3000/api/' + stock + '/', { 
-      method: 'POST',
-      headers: {'Content-Type':'application/x-www-form-urlencoded'},
-      body: JSON.stringify({stock_id: stockId, stock_level: result, stock_date: Date.now()}) })
-      .then(() => resolve());
-  });
-
+  fetch('http://localhost:3000/api/' + stock + '/', {
+    method: 'POST',
+    headers: {
+      'Accept': 'application/json',
+      'Content-Type': 'application/json'
+    },
+    // body: JSON.stringify({stock_id: stockId, stock_level: result, stock_date: new Date().toLocaleString()}) })
+    body: JSON.stringify({ stock_id: '1', stock_level: '5555', stock_date: '2020-08-29 14:55:03' })
+  })
+    .then((result) => {
+      console.log(result);
+    })
+    .catch((result) => {
+      console.log(result);
+    });
   //(stock_id, stock_level, stock_date)
 };
+
