@@ -35,6 +35,5 @@ export let fetchDiesel = async (stock) => {
       target.style.display = 'none';
     };
   }
-
-
+  
 };

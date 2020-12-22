@@ -1,3 +1,6 @@
+import * as fmd from './format.js';
+import * as diesel from './diesel.js';
+
 export let fetchStock = (stock) => {
   return new Promise((resolve, reject) => {
     fetch('http://localhost:3000/api/' + stock + '/', { method: 'GET' })
@@ -17,9 +20,7 @@ export let fetchStock = (stock) => {
   });
 };
 
-
 export let addStock = (stock, dataFetched) => {
-
   let input = document.getElementById('modal-input').value;
   let lastElement = dataFetched.slice(-1)[0];
   let result = lastElement.stock_level + parseInt(input);
@@ -40,15 +41,15 @@ export let addStock = (stock, dataFetched) => {
       'Accept': 'application/json',
       'Content-Type': 'application/json'
     },
-    // body: JSON.stringify({stock_id: stockId, stock_level: result, stock_date: new Date().toLocaleString()}) })
-    body: JSON.stringify({ stock_id: '1', stock_level: '5555', stock_date: '2020-08-29 14:55:03' })
+    body: JSON.stringify({ stock_id: stockId, stock_level: result, stock_date: fmd.dateTimeFormat(new Date())
+    })
   })
     .then((result) => {
-      console.log(result);
+      console.log('REUSSITE',result);
+      diesel.fetchDiesel('gasoil');
     })
     .catch((result) => {
-      console.log(result);
+      console.log('ECHEC',result);
     });
-  //(stock_id, stock_level, stock_date)
 };
 

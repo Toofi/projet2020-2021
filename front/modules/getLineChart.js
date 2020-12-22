@@ -13,6 +13,7 @@ export let getLineChart = (labels, data) => {
         // backgroundColor: 'rgb(236, 78, 32)',
         borderColor: 'rgb(236, 78, 32)',
         pointBorderWidth: 1.5,
+        lineTension: 0.2,
         data: data
       }]
     },
