@@ -21,9 +21,9 @@ export let fetchStock = (stock) => {
 };
 
 export let addStock = (stock, dataFetched) => {
-  let input = document.getElementById('modal-input').value;
-  let lastElement = dataFetched.slice(-1)[0];
-  let result = lastElement.stock_level + parseInt(input);
+  const input = document.getElementById('modal-input').value;
+  const lastElement = dataFetched.slice(-1)[0];
+  const result = lastElement.stock_level + parseInt(input, 10);
   console.log(result);
   switch (stock) {
     case 'gasoil':
