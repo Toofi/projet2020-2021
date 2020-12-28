@@ -32,7 +32,7 @@ export let getModal = (action) => {
         <h1>Ajouter un mouvement</h1>
         <div class="modal-form">
           <label for="quantity" class="modal-label">Quantité </label>
-          <input type="texte" class="modal-input" name="quantity"></input><br />
+          <input type="text" class="modal-input" id="modal-input" name="quantity"></input><br>
           <button type="button" class="btn btn-add modal-btn" id="btn-confirm">Confirmer</button>
           <button type="button" class="btn btn-del modal-btn" id="btn-cancel">Annuler</button>
         </div>

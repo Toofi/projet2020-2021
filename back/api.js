@@ -10,6 +10,8 @@ const port = 3000;
 
 app.use(cors());
 app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.json());
+app.use(bodyParser.raw());
 app.get('/api/', (req, res) => res.send('coucou!'));
 app.get('/api/gasoil/', (req, res) => {
   db.query('SELECT * FROM gasoil_stock;', (error, result) => {
@@ -23,6 +25,7 @@ app.get('/api/gasoil/', (req, res) => {
 });
 
 app.post('/api/gasoil/', (req, res) => {
+  console.log(req.body);
   const { stock_id, stock_level, stock_date } = req.body;
   db.query('INSERT INTO gasoil_stock (stock_id, stock_level, stock_date) VALUES (?, ?, ?)',
     [stock_id, stock_level, stock_date],

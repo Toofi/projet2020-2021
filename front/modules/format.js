@@ -2,6 +2,10 @@ export let formatDate = (date) => {
   return date.getDate() + "/" + date.getMonth() + "/" + date.getFullYear() + " " + date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds();
 }
 
+export let dateTimeFormat = (date) => {
+  return date.getFullYear() + "-" + date.getMonth(1) + "-" + date.getDate() + " " + date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds(); 
+}
+
 export let formatData = (data) => {
   let stockObj = {
     stockDates: [],

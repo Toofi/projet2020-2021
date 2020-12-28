@@ -1,4 +1,5 @@
 import * as diesel from './modules/diesel.js';
+import * as fmd from './modules/format.js';
 
 document.getElementById("diesel").onclick = () => {
   console.log("click on diesel");
