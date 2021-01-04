@@ -52,4 +52,3 @@ export let addStock = (stock, dataFetched) => {
       console.log('ECHEC',result);
     });
 };
-
