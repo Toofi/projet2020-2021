@@ -8,9 +8,11 @@ export let dateTimeFormat = (date) => {
 
 export let formatData = (data) => {
   let stockObj = {
+    id: [],
     stockDates: [],
     stockLevels: []
   }
+  stockObj.id = data.map(element => element.id);
   stockObj.stockDates = data.map(element => formatDate(new Date(Date.parse(element.stock_date))));
   stockObj.stockLevels = data.map(element => element.stock_level);
   return stockObj;

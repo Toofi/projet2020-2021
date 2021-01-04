@@ -41,8 +41,7 @@ export let addStock = (stock, dataFetched) => {
       'Accept': 'application/json',
       'Content-Type': 'application/json'
     },
-    body: JSON.stringify({ stock_id: stockId, stock_level: result, stock_date: fmd.dateTimeFormat(new Date())
-    })
+    body: JSON.stringify({ stock_id: stockId, stock_level: result, stock_date: fmd.dateTimeFormat(new Date()) })
   })
     .then((result) => {
       console.log('REUSSITE',result);
@@ -52,3 +51,8 @@ export let addStock = (stock, dataFetched) => {
       console.log('ECHEC',result);
     });
 };
+
+export let updateStock = (stock) => {
+  const input = document.getElementById('modal-input').value;
+
+}
