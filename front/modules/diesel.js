@@ -2,6 +2,7 @@ import * as connexion from './connexion.js';
 import * as format from './format.js';
 import * as chart from './getLineChart.js';
 import * as template from './template.js';
+import * as modal from './modal.js';
 
 export let fetchDiesel = async (stock) => {
   let data = await connexion.fetchStock('gasoil');
@@ -11,29 +12,15 @@ export let fetchDiesel = async (stock) => {
   chart.getLineChart(diesel.stockDates, diesel.stockLevels);
 
   document.getElementById('btn-add').onclick = () => {
-    openModal('add');
+    modal.openModal('add', 'gasoil', data);
   };
 
   document.getElementById('btn-upd').onclick = () => {
-    openModal('update');
+    openModal('update', 'gasoil', data);
   };
 
   document.getElementById('btn-del').onclick = () => {
-    openModal('delete');
+    openModal('delete', 'gasoil');
   };
 
-  const openModal = (action) => {
-    let target = document.getElementById('modal');
-    target.innerHTML = template.getModal(action);
-    target.style.display = null;
-
-    document.getElementById('btn-confirm').onclick = () => {
-      connexion.addStock('gasoil', data);
-    };
-
-    document.getElementById('btn-cancel').onclick = () => {
-      target.style.display = 'none';
-    };
-  }
-  
 };
