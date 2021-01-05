@@ -52,7 +52,31 @@ export let addStock = (stock, dataFetched) => {
     });
 };
 
-export let updateStock = (stock) => {
+export let updateStock = (stock, id) => {
   const input = document.getElementById('modal-input').value;
 
+  fetch('http://localhost:3000/api/' + stock + '/', {
+    method: 'PUT',
+    headers: {
+      'Accept': 'application/json',
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({ stock_level: input, id: id})
+  })
+    .then((result) => {
+      console.log('REUSSITE', result);
+      diesel.fetchDiesel('gasoil');
+    })
+
+}
+
+export let deleteStock = (stock, id ) => {
+  
+  fetch('http://localhost:3000/api/' + stock + '/' + id, {
+    method: 'DELETE'
+  })
+    .then((result) => {
+      console.log('REUSSITE', result);
+      diesel.fetchDiesel('gasoil');
+    })
 }

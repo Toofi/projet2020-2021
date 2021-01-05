@@ -16,13 +16,15 @@ export let fetchDiesel = async (stock) => {
   };
 
   document.getElementById('btn-update').onclick = () => {
-    console.log(document.getElementById('btn-update').value);
-
-    modal.openModal('update', 'gasoil', data);
+    let id = document.getElementById('btn-update').value;
+    console.log(id);
+    modal.openModal('update', 'gasoil', data, id);
   };
 
-  document.getElementById('btn-del').onclick = () => {
-    modal.openModal('delete', 'gasoil');
+  document.getElementById('btn-delete').onclick = () => {
+    let id = document.getElementById('btn-delete').value;
+    console.log(id);
+    modal.openModal('delete', 'gasoil', '', id);
   };
 
 };
