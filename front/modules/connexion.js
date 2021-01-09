@@ -67,7 +67,9 @@ export let updateStock = (stock, id) => {
       console.log('REUSSITE', result);
       diesel.fetchDiesel('gasoil');
     })
-
+    .catch((result) => {
+      console.log('ECHEC',result);
+    });
 }
 
 export let deleteStock = (stock, id ) => {
@@ -79,4 +81,7 @@ export let deleteStock = (stock, id ) => {
       console.log('REUSSITE', result);
       diesel.fetchDiesel('gasoil');
     })
+    .catch((result) => {
+      console.log('ECHEC',result);
+    });
 }

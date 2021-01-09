@@ -13,7 +13,6 @@ export const openModal = (action, stock, data, id) => {
         break;
       case 'update':
         connexion.updateStock(stock, id);
-      
         break;
       case 'delete':
         connexion.deleteStock(stock, id);
