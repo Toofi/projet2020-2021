@@ -7,20 +7,22 @@ import * as modal from './modal.js';
 export let fetchDiesel = async (stock) => {
   let data = await connexion.fetchStock('gasoil');
   let diesel = format.formatData(data);
-  console.log(diesel.stockDates);
-  document.getElementById('content').innerHTML = template.getTemplate(diesel.stockDates, diesel.stockLevels);
+  document.getElementById('content').innerHTML = template.getTemplate(diesel.id, diesel.stockDates, diesel.stockLevels);
   chart.getLineChart(diesel.stockDates, diesel.stockLevels);
 
   document.getElementById('btn-add').onclick = () => {
     modal.openModal('add', 'gasoil', data);
   };
 
-  document.getElementById('btn-upd').onclick = () => {
-    openModal('update', 'gasoil', data);
-  };
+  let updateButton = [].slice.call(document.getElementsByClassName('btn btn-upd')).forEach(element => {
+    element.addEventListener('click', () => {
+      modal.openModal('update', 'gasoil', data, element.value);
+    })
+  });
 
-  document.getElementById('btn-del').onclick = () => {
-    openModal('delete', 'gasoil');
-  };
-
+  let deleteButton = [].slice.call(document.getElementsByClassName('btn btn-del')).forEach(element => {
+    element.addEventListener('click', () => {
+      modal.openModal('delete', 'gasoil', '', element.value);
+    })
+  });
 };

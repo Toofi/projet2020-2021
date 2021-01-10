@@ -41,8 +41,7 @@ export let addStock = (stock, dataFetched) => {
       'Accept': 'application/json',
       'Content-Type': 'application/json'
     },
-    body: JSON.stringify({ stock_id: stockId, stock_level: result, stock_date: fmd.dateTimeFormat(new Date())
-    })
+    body: JSON.stringify({ stock_id: stockId, stock_level: result, stock_date: fmd.dateTimeFormat(new Date()) })
   })
     .then((result) => {
       console.log('REUSSITE',result);
@@ -52,3 +51,37 @@ export let addStock = (stock, dataFetched) => {
       console.log('ECHEC',result);
     });
 };
+
+export let updateStock = (stock, id) => {
+  const input = document.getElementById('modal-input').value;
+
+  fetch('http://localhost:3000/api/' + stock + '/', {
+    method: 'PUT',
+    headers: {
+      'Accept': 'application/json',
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({ stock_level: input, id: id})
+  })
+    .then((result) => {
+      console.log('REUSSITE', result);
+      diesel.fetchDiesel('gasoil');
+    })
+    .catch((result) => {
+      console.log('ECHEC',result);
+    });
+}
+
+export let deleteStock = (stock, id ) => {
+  
+  fetch('http://localhost:3000/api/' + stock + '/' + id, {
+    method: 'DELETE'
+  })
+    .then((result) => {
+      console.log('REUSSITE', result);
+      diesel.fetchDiesel('gasoil');
+    })
+    .catch((result) => {
+      console.log('ECHEC',result);
+    });
+}

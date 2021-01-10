@@ -1,13 +1,25 @@
 import * as template from './template.js';
 import * as connexion from './connexion.js';
 
-export const openModal = (action, stock, data) => {
+export const openModal = (action, stock, data, id) => {
   let target = document.getElementById('modal');
   target.innerHTML = template.getModal(action);
   target.style.display = null;
 
   document.getElementById('btn-confirm').onclick = () => {
-    connexion.addStock(stock, data);
+    switch (action) {
+      case 'add':
+        connexion.addStock(stock, data);
+        break;
+      case 'update':
+        connexion.updateStock(stock, id);
+        break;
+      case 'delete':
+        connexion.deleteStock(stock, id);
+        break;
+      default:
+        break;
+    }
   };
 
   document.getElementById('btn-cancel').onclick = () => {
