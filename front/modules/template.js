@@ -1,6 +1,7 @@
-export let getTemplate = (id, stockDates, stockLevels) => {
+export let getTemplate = (id, stockId, stockDates, stockLevels) => {
   return `
   <div class="container">
+    <div class="stock-title">${getTitle(stockId)}</div>
     <div class="chart-container">
       <canvas id="myChart" class="chart"></canvas>
     </div>
@@ -70,7 +71,20 @@ export let getModal = (action) => {
   }
 };
 
-export let stockTableTemplate = (id, stockDates, stockLevels) => {
+let getTitle = (stockId) => {
+  switch (stockId) {
+    case 1:
+        return 'Gasoil';
+    case 2:
+        return 'Essence';
+    case 3:
+        return 'Adblue';
+    default:
+      break;
+  }
+}
+
+let stockTableTemplate = (id, stockDates, stockLevels) => {
   let table = [];
   for (let i = 0; i < stockDates.length && i < stockLevels.length; i++) {
     table = [...table, `

@@ -30,7 +30,14 @@ export let addStock = (stock, dataFetched) => {
       var stockId = 1;
       console.log(stockId);
       break;
-
+    case 'essence':
+      var stockId = 2;
+      console.log(stockId);
+      break;
+    case 'adblue':
+      var stockId = 3;
+      console.log(stockId);
+      break;
     default:
       break;
   }
@@ -45,7 +52,7 @@ export let addStock = (stock, dataFetched) => {
   })
     .then((result) => {
       console.log('REUSSITE',result);
-      diesel.fetchDiesel('gasoil');
+      diesel.fetchDiesel(stock);
     })
     .catch((result) => {
       console.log('ECHEC',result);
@@ -65,7 +72,7 @@ export let updateStock = (stock, id) => {
   })
     .then((result) => {
       console.log('REUSSITE', result);
-      diesel.fetchDiesel('gasoil');
+      diesel.fetchDiesel(stock);
     })
     .catch((result) => {
       console.log('ECHEC',result);
@@ -79,7 +86,7 @@ export let deleteStock = (stock, id ) => {
   })
     .then((result) => {
       console.log('REUSSITE', result);
-      diesel.fetchDiesel('gasoil');
+      diesel.fetchDiesel(stock);
     })
     .catch((result) => {
       console.log('ECHEC',result);
