@@ -25,22 +25,9 @@ export let addStock = (stock, dataFetched) => {
   const lastElement = dataFetched.slice(-1)[0];
   const result = lastElement.stock_level + parseInt(input, 10);
   console.log(result);
-  switch (stock) {
-    case 'gasoil':
-      var stockId = 1;
-      console.log(stockId);
-      break;
-    case 'essence':
-      var stockId = 2;
-      console.log(stockId);
-      break;
-    case 'adblue':
-      var stockId = 3;
-      console.log(stockId);
-      break;
-    default:
-      break;
-  }
+  const stockKey = {'gasoil': 1, 'essence': 2, 'adblue': 3 };
+  const stockId = stockKey[stock] || null; 
+  console.log(stockId)
 
   fetch('http://localhost:3000/api/' + stock + '/', {
     method: 'POST',
@@ -51,11 +38,11 @@ export let addStock = (stock, dataFetched) => {
     body: JSON.stringify({ stock_id: stockId, stock_level: result, stock_date: fmd.dateTimeFormat(new Date()) })
   })
     .then((result) => {
-      console.log('REUSSITE',result);
+      console.log('REUSSITE', result);
       diesel.fetchDiesel(stock);
     })
     .catch((result) => {
-      console.log('ECHEC',result);
+      console.log('ECHEC', result);
     });
 };
 
@@ -68,19 +55,18 @@ export let updateStock = (stock, id) => {
       'Accept': 'application/json',
       'Content-Type': 'application/json'
     },
-    body: JSON.stringify({ stock_level: input, id: id})
+    body: JSON.stringify({ stock_level: input, id: id })
   })
     .then((result) => {
       console.log('REUSSITE', result);
       diesel.fetchDiesel(stock);
     })
     .catch((result) => {
-      console.log('ECHEC',result);
+      console.log('ECHEC', result);
     });
-}
+};
 
-export let deleteStock = (stock, id ) => {
-  
+export let deleteStock = (stock, id) => {
   fetch('http://localhost:3000/api/' + stock + '/' + id, {
     method: 'DELETE'
   })
@@ -89,6 +75,6 @@ export let deleteStock = (stock, id ) => {
       diesel.fetchDiesel(stock);
     })
     .catch((result) => {
-      console.log('ECHEC',result);
+      console.log('ECHEC', result);
     });
-}
+};

@@ -34,8 +34,10 @@ export let getModal = (action) => {
         <div class="modal-form">
           <label for="quantity" class="modal-label">Quantité</label>
           <input type="text" class="modal-input" id="modal-input" name="quantity"></input><br>
-          <button type="button" class="btn btn-add modal-btn" id="btn-confirm">Confirmer</button>
-          <button type="button" class="btn btn-del modal-btn" id="btn-cancel">Annuler</button>
+          <div style="display: flex;">
+            <button type="button" class="btn btn-add modal-btn" id="btn-confirm">Confirmer</button>
+            <button type="button" class="btn btn-del modal-btn" id="btn-cancel">Annuler</button>
+          </div>
         </div>
       </div>
       `
@@ -74,11 +76,11 @@ export let getModal = (action) => {
 let getTitle = (stockId) => {
   switch (stockId) {
     case 1:
-        return 'Gasoil';
+      return 'Gasoil';
     case 2:
-        return 'Essence';
+      return 'Essence';
     case 3:
-        return 'Adblue';
+      return 'Adblue';
     default:
       break;
   }

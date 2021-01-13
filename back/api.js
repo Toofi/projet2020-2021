@@ -25,12 +25,24 @@ let query = (request, data) => {
   });
 }
 
+let urlControl = (stockName) => {
+  if (stockName === 'gasoil' || 'essence' || 'adblue') {
+    return true;
+  } else {
+    return false;
+  }
+}
+
 app.get('/api/', (req, res) => res.send('coucou!'));
 app.get('/api/:stock/', async (req, res) => {
   try {
     const stock = req.params.stock;
-    const stockRequest = await query('SELECT * FROM '+stock+'_stock');
-    res.json(stockRequest);
+    if (urlControl(stock)) {
+      const stockRequest = await query('SELECT * FROM ' + stock + '_stock');
+      res.json(stockRequest);
+    } else {
+      res.status(400).json({ error: 'incorrect request' });
+    }
   } catch (error) {
     return res.status(400).json({ error: 'impossible to get any level' });
   }
@@ -40,9 +52,13 @@ app.post('/api/:stock/', async (req, res) => {
   try {
     const stock = req.params.stock;
     const { stock_id, stock_level, stock_date } = req.body;
-    const stockRequest = await query('INSERT INTO '+stock+'_stock (stock_id, stock_level, stock_date) VALUES (?, ?, ?)', [stock_id, stock_level, stock_date])
-    console.log('POST ok');
-    res.json(stockRequest);
+    if (urlControl(stock)) {
+      const stockRequest = await query('INSERT INTO ' + stock + '_stock (stock_id, stock_level, stock_date) VALUES (?, ?, ?)', [stock_id, stock_level, stock_date]);
+      console.log('POST ok');
+      res.json(stockRequest);
+    } else {
+      res.status(400).json({ error: 'incorrect request' });
+    }
   } catch (error) {
     res.status(400).json({ error: 'Impossible to add the update!' });
   }
@@ -53,23 +69,32 @@ app.put('/api/:stock', async (req, res) => {
   try {
     const stock = req.params.stock;
     const { id, stock_level } = req.body;
-    const stockRequest = await query('UPDATE '+stock+'_stock SET stock_level = ? WHERE id = ?', [stock_level, id])
-    console.log('PUT OK');
-    res.json(stockRequest);
+    if (urlControl(stock)) {
+      const stockRequest = await query('UPDATE ' + stock + '_stock SET stock_level = ? WHERE id = ?', [stock_level, id]);
+      console.log('PUT OK');
+      res.json(stockRequest);
+    } else {
+      res.status(400).json({ error: 'incorrect request' });
+    }
   } catch (error) {
-    res.status(400).json({ error: "Impossible to update the levels !"});
+    res.status(400).json({ error: "Impossible to update the levels !" });
   }
 });
 
 app.delete('/api/:stock/:id', (req, res) => {
-  const stock = req.params.stock;
-  const id = req.params.id;
-  db.query('DELETE FROM '+stock+'_stock WHERE id = ?', [id], (error, result) => {
-    if (error) {
-      return res.status(400).json({error : 'Impossible to delete the stock'});
+  try {
+    const stock = req.params.stock;
+    const id = req.params.id;
+    if(urlControl(stock)){
+      db.query('DELETE FROM ' + stock + '_stock WHERE id = ?', [id], (error, result) => {
+        res.json({ result: 'stock deleted' });
+      });
+    } else {
+      res.status(400).json({ error: 'incorrect request' });
     }
-    res.json({result : 'stock deleted'});
-  });
+  } catch (error) {
+    res.statuts(400).json({ error: "Impossible to delete the stock." });
+  }
 });
 
 app.listen(port, () => console.log(`SERVER STARTED IN PORT ${port}`));
