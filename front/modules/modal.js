@@ -5,6 +5,8 @@ export const openModal = (action, stock, data, id) => {
   let target = document.getElementById('modal');
   target.innerHTML = template.getModal(action);
   target.style.display = null;
+  document.getElementById('modal-wrapper').classList.add('modal-animation');
+
 
   document.getElementById('btn-confirm').onclick = () => {
     switch (action) {

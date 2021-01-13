@@ -9,7 +9,7 @@ export let fetchDiesel = async (stock) => {
   let stockReceived = format.formatData(data);
   document.getElementById('content').innerHTML = template.getTemplate(stockReceived.id, data[0].stock_id, stockReceived.stockDates, stockReceived.stockLevels);
   chart.getLineChart(stockReceived.stockDates, stockReceived.stockLevels);
-
+  document.getElementById('container').classList.add('animation');
   document.getElementById('btn-add').onclick = () => {
     modal.openModal('add', stock, data);
   };

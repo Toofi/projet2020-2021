@@ -1,26 +1,25 @@
 export let getTemplate = (id, stockId, stockDates, stockLevels) => {
   return `
-  <div class="container">
+  <div class="container" id="container">
     <div class="stock-title">${getTitle(stockId)}</div>
-    <div class="chart-container">
-      <canvas id="myChart" class="chart"></canvas>
-    </div>
-    <div class="btn-container">
-      <button type="button" id="btn-add" class="btn btn-add">Ajouter un mouvement</button>
-    </div>
-    <h1>Historique</h1>
-    <table>
-    <tr>
-      <th style="width: 75px;">Id</th>
-      <th>Date</th>
-      <th>Quantité (en litres)</th>
-      <th style="text-align: center;">Actions</th>
-    </tr>
+      <div class="chart-container">
+        <canvas id="myChart" class="chart"></canvas>
+      </div>
+      <div class="btn-container">
+        <button type="button" id="btn-add" class="btn btn-add">Ajouter un mouvement</button>
+      </div>
+      <h1>Historique</h1>
+      <table>
+        <tr>
+          <th style="width: 75px;">Id</th>
+          <th>Date</th>
+          <th>Quantité (en litres)</th>
+          <th style="text-align: center;">Actions</th>
+        </tr>
       ${stockTableTemplate(id, stockDates, stockLevels)}
-    </table>
-    <div id="modal" class="modal" style="display: none;">
+      </table>
+        <div id="modal" class="modal" style="display: none;"></div>
     </div>
-  </div>
   </div>
   `
 };
@@ -29,7 +28,7 @@ export let getModal = (action) => {
   switch (action) {
     case 'add':
       return `
-      <div class="modal-wrapper">
+      <div class="modal-wrapper" id="modal-wrapper">
         <h1>Ajouter un mouvement</h1>
         <div class="modal-form">
           <label for="quantity" class="modal-label">Quantité</label>
@@ -43,13 +42,13 @@ export let getModal = (action) => {
       `
     case 'update':
       return `
-      <div class="modal-wrapper">
+      <div class="modal-wrapper" id="modal-wrapper">
         <h1>Modifier un mouvement</h1>
         <div class="modal-form">
           <label for="quantity" class="modal-label">Quantité</label>
           <input type="text" class="modal-input" id="modal-input" name="quantity"></input><br>
           <div style="display: flex;">
-            <button type="button" class="btn btn-add modal-btn" id="btn-confirm" autofocus>Confirmer</button>
+            <button type="button" class="btn btn-add modal-btn" id="btn-confirm">Confirmer</button>
             <button type="button" class="btn btn-del modal-btn" id="btn-cancel">Annuler</button>
           </div>
         </div>
@@ -57,7 +56,7 @@ export let getModal = (action) => {
       `
     case 'delete':
       return `
-      <div class="modal-wrapper"> 
+      <div class="modal-wrapper" id="modal-wrapper"> 
         <h1>Supprimer un mouvement</h1>
         <div class="modal-form">
           <div class="modal-text">Êtes-vous sûr de vouloir supprimer ?</div>
