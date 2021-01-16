@@ -8,7 +8,17 @@ export const openModal = (action, stock, data, id) => {
     modal.classList.add('modal-animation');
   }, 1);
   modal.style.display = null;
-
+  
+  if (document.getElementById('modal-input')) {
+    let input = document.getElementById('modal-input');
+    input.addEventListener('input', () => {
+      if (input.validity.valid) {
+        document.getElementById('btn-confirm').removeAttribute('disabled', '');
+      } else {
+        document.getElementById('btn-confirm').setAttribute('disabled', '');
+      }
+    })
+  }
 
   document.getElementById('btn-confirm').onclick = async () => {
     switch (action) {
