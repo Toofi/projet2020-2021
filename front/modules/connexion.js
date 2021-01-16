@@ -25,8 +25,8 @@ export let addStock = (stock, dataFetched) => {
   const lastElement = dataFetched.slice(-1)[0];
   const result = lastElement.stock_level + parseInt(input, 10);
   console.log(result);
-  const stockKey = {'gasoil': 1, 'essence': 2, 'adblue': 3 };
-  const stockId = stockKey[stock] || null; 
+  const stockKey = { 'gasoil': 1, 'essence': 2, 'adblue': 3 };
+  const stockId = stockKey[stock] || null;
   console.log(stockId)
 
   fetch('http://localhost:3000/api/' + stock + '/', {
