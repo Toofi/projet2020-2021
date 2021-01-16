@@ -30,41 +30,41 @@ export let getModal = (action) => {
       return `
       <div class="modal-wrapper" id="modal-wrapper">
         <h1>Ajouter un mouvement</h1>
-        <div class="modal-form">
+        <form id="form" class="modal-form" novalidate>
           <label for="quantity" class="modal-label">Quantité</label>
-          <input type="text" class="modal-input" id="modal-input" name="quantity"></input><br>
+          <input type="text" class="modal-input" id="modal-input" name="quantity" required pattern="^-?\\d{1,5}"></input><br>
           <div style="display: flex;">
-            <button type="button" class="btn btn-add modal-btn" id="btn-confirm">Confirmer</button>
+            <button type="button" class="btn btn-add modal-btn" id="btn-confirm" disabled>Confirmer</button>
             <button type="button" class="btn btn-del modal-btn" id="btn-cancel">Annuler</button>
           </div>
-        </div>
+        </form>
       </div>
       `
     case 'update':
       return `
       <div class="modal-wrapper" id="modal-wrapper">
         <h1>Modifier un mouvement</h1>
-        <div class="modal-form">
+        <form id="form" class="modal-form" novalidate>
           <label for="quantity" class="modal-label">Quantité</label>
-          <input type="text" class="modal-input" id="modal-input" name="quantity"></input><br>
+          <input type="text" class="modal-input" id="modal-input" name="quantity" required pattern="^\\d{1,5}"></input><br>
           <div style="display: flex;">
-            <button type="button" class="btn btn-add modal-btn" id="btn-confirm">Confirmer</button>
+            <button type="button" class="btn btn-add modal-btn" id="btn-confirm" disabled>Confirmer</button>
             <button type="button" class="btn btn-del modal-btn" id="btn-cancel">Annuler</button>
           </div>
-        </div>
+        </form>
       </div>
       `
     case 'delete':
       return `
       <div class="modal-wrapper" id="modal-wrapper"> 
         <h1>Supprimer un mouvement</h1>
-        <div class="modal-form">
+        <form id="form" class="modal-form" novalidate>
           <div class="modal-text">Êtes-vous sûr de vouloir supprimer ?</div>
           <div style="display: flex;">
             <button type="button" class="btn btn-add modal-btn" id="btn-confirm">Confirmer</button>
             <button type="button" class="btn btn-del modal-btn" id="btn-cancel">Annuler</button>
           </div>
-        </div>
+        </form>
       </div>
       `
     default:
@@ -75,7 +75,7 @@ export let getModal = (action) => {
 let getTitle = (stockId) => {
   switch (stockId) {
     case 1:
-      return 'Gasoil';
+      return 'Diesel';
     case 2:
       return 'Essence';
     case 3:

@@ -104,10 +104,6 @@ h1 {
   margin-top: 20px;
 }
 
-.chart-container {
-
-}
-
 .chart {
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
@@ -122,11 +118,10 @@ th {
   border-bottom: 1px solid black;
   font-size: 18px;
   height: 36px;
-  background-color: #E1E1E1;
+  background-color: #f5f5f5;
 }
 
 td {
-  border: 1px solid white;
   border-bottom: 1px solid black;
 }
 
@@ -148,6 +143,16 @@ td {
   outline-offset: 0px;
   transition: outline-offset 0.2s ease-out, color 0.4s ease-out;
   font-weight: 600;
+}
+
+.btn:disabled {
+  outline: none;
+  background-color: #353531;
+  color: white;
+}
+
+.btn:disabled:hover {
+  outline: none;
 }
 
 .btn:hover {
@@ -217,10 +222,24 @@ td {
 }
 
 .modal-input {
+  border: none;
+  background-color: #f5f5f5;
   height: 32px;
+  padding-left: 5px; 
   margin-left: 15px;
   margin-top: 35px;
   margin-bottom: 35px;
+}
+
+.modal-input:focus {
+  outline: 1px solid #E1E1E1;
+}
+.modal-input:invalid {
+  border-bottom: #EC4E20 2px solid;
+}
+
+.modal-input:valid {
+  border-bottom: #21ED83 2px solid;
 }
 
 .modal-text {
