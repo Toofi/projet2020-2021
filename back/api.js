@@ -46,7 +46,7 @@ app.post('/api/:stock/', async (req, res) => {
   try {
     const stock = req.params.stock;
     const { stock_id, stock_level, stock_date } = req.body;
-    if (urlControl(stock)) {
+    if (urlControl(stock) && !isNaN(stock_id) && !isNaN(stock_level)) {
       const stockRequest = await query('INSERT INTO ' + stock + '_stock (stock_id, stock_level, stock_date) VALUES (?, ?, ?)', [stock_id, stock_level, stock_date]);
       console.log('POST ok');
       res.json(stockRequest);
@@ -63,7 +63,7 @@ app.put('/api/:stock', async (req, res) => {
   try {
     const stock = req.params.stock;
     const { id, stock_level } = req.body;
-    if (urlControl(stock)) {
+    if (urlControl(stock) && !isNaN(id) && !isNaN(stock_level)) {
       const stockRequest = await query('UPDATE ' + stock + '_stock SET stock_level = ? WHERE id = ?', [stock_level, id]);
       console.log('PUT OK');
       res.json(stockRequest);
@@ -79,7 +79,7 @@ app.delete('/api/:stock/:id', (req, res) => {
   try {
     const stock = req.params.stock;
     const id = req.params.id;
-    if(urlControl(stock)){
+    if(urlControl(stock) && !isNaN(id)){
       db.query('DELETE FROM ' + stock + '_stock WHERE id = ?', [id], (error, result) => {
         res.json({ result: 'stock deleted' });
       });
