@@ -28,11 +28,6 @@ let query = (request, data) => {
 
 let urlControl = (stockName) =>  ['gasoil', 'essence', 'adblue'].includes(stockName);
 
-let dateControl = (dateToControl) => {
-  let date = moment(dateToControl);
-  return date.isValid();
-}
-
 app.get('/api/', (req, res) => res.send('coucou!'));
 app.get('/api/:stock/', async (req, res) => {
   try {
@@ -52,7 +47,7 @@ app.post('/api/:stock/', async (req, res) => {
   try {
     const stock = req.params.stock;
     const { stock_id, stock_level, stock_date } = req.body;
-    if (urlControl(stock) && !isNaN(stock_id) && !isNaN(stock_level) && dateControl(stock_date)) {
+    if (urlControl(stock) && !isNaN(stock_id) && !isNaN(stock_level) && moment(stock_date).isValid()) {
       const stockRequest = await query('INSERT INTO ' + stock + '_stock (stock_id, stock_level, stock_date) VALUES (?, ?, ?)', [stock_id, stock_level, stock_date]);
       console.log('POST ok');
       res.json(stockRequest);
