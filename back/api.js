@@ -25,13 +25,7 @@ let query = (request, data) => {
   });
 }
 
-let urlControl = (stockName) => {
-  if (stockName === 'gasoil' || 'essence' || 'adblue') {
-    return true;
-  } else {
-    return false;
-  }
-}
+let urlControl = (stockName) =>  ['gasoil', 'essence', 'adblue'].includes(stockName);
 
 app.get('/api/', (req, res) => res.send('coucou!'));
 app.get('/api/:stock/', async (req, res) => {
