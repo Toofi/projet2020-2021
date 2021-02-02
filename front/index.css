@@ -12,6 +12,17 @@ green: #21ED83
 light grey: #E1E1E1
 */
 
+:root {
+  --green: #21ED83;
+  --red: #EC4E20;
+  --blue: #016FB9;
+  --yellow: #FF9505;
+  --textColor: #000000;
+  --lightGrey: #E1E1E1;
+  --lightBlack: #353531;
+  --white: #ffffff;
+}
+
 h1 {
   padding-top: 15px;
   font-family: 'Nunito', sans-serif;
@@ -26,7 +37,7 @@ h1 {
   margin: auto;
   padding-top: 20px;
   padding-bottom: 50px;
-  border-bottom: 5px solid #353531;
+  border-bottom: 5px solid var(--lightBlack);
 }
 
 .landing-p {
@@ -36,7 +47,7 @@ h1 {
   margin-top: 120px;
   margin-left: auto;
   margin-right: auto;
-  border-left: solid 3px #EC4E20;
+  border-left: solid 3px var(--red);
 }
 
 .sidebar {
@@ -47,7 +58,6 @@ h1 {
   left: 0;
   overflow: hidden;
   padding-top: 20px;
-  background-color: #FFFFFF;
   width: 200px;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   background-image: linear-gradient(to top, #d5d4d0 0%, #d5d4d0 1%, #eeeeec 31%, #efeeec 75%, #e9e9e7 100%);
@@ -55,23 +65,22 @@ h1 {
 
 .sidebar a {
   text-decoration: none;
-  color: #353531;
-
+  color: var(--lightBlack);
 }
 
 .sidebar .link {
   /* margin-left: 5px; */
-  color: #353531;
+  color: var(--lightBlack);
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
   display: block;
-  border-left: solid 0px #EC4E20;
+  border-left: solid 0px var(--red);
   transition: border-left 0.2s;
 }
 
 .sidebar .link:hover {
-  border-left: solid 12px #EC4E20;
+  border-left: solid 12px var(--red);
 }
 
 .logo {
@@ -79,16 +88,16 @@ h1 {
   padding-bottom: 5px;
   font-family: 'Nunito', sans-serif;
   font-size: 24px;
-  color: #000000;
+  color: var(--textColor);
   text-align: center;
-  border-left: solid 3px #EC4E20;
+  border-left: solid 3px var(--red);
   transition: background-color 0.8s, border-left 1s, color 1s;
 }
 
 .logo:hover {
-  background-color: #EC4E20;
-  border-left: solid 3px white;
-  color: #353531;
+  background-color: var(--red);
+  border-left: solid 3px var(--white);
+  color: var(--lightBlack);
 }
 
 .links { 
@@ -100,7 +109,7 @@ h1 {
   height: 100%;
   width: 100%;
   padding-left: 200px;
-  background-color: #FFFFFF;
+  background-color: var(--white);
   overflow: auto;
   overflow-x: hidden;
 }
@@ -136,14 +145,14 @@ table {
 }
 
 th {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid var(--lightGrey);
   font-size: 18px;
   height: 36px;
   background-color: #f5f5f5;
 }
 
 td {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid var(--lightGrey);
 }
 
 .btn-container {
@@ -156,11 +165,11 @@ td {
   padding: 15px;
   font-family: 'Nunito', sans-serif;
   font-size: 16px;
-  color: #353531;
+  color: var(--lightBlack);
   border: none;
   /* box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   transition: box-shadow 0.4s; */
-  outline: 1px hidden #FFFFFF;
+  outline: 1px hidden var(--white);
   outline-offset: 0px;
   transition: outline-offset 0.2s ease-out, color 0.4s ease-out;
   font-weight: 600;
@@ -168,8 +177,8 @@ td {
 
 .btn:disabled {
   outline: none;
-  background-color: #353531;
-  color: white;
+  background-color: var(--lightBlack);
+  color: var(--white);
 }
 
 .btn:disabled:hover {
@@ -177,23 +186,23 @@ td {
 }
 
 .btn:hover {
-  outline: 1px solid #FFFFFF;
+  outline: 1px solid var(--white);
   outline-offset: -5px;
-  color: white;
+  color: var(--white);
 }
 
 .btn-add {
-  background-color: #21ED83;
-  color: #353531;
+  background-color: var(--green);
+  color: var(--lightBlack);
   font-size: 18px;
 }
 
 .btn-upd {
-  background-color: #016FB9;
+  background-color: var(--blue);
 }
 
 .btn-del {
-  background-color: #EC4E20;
+  background-color: var(--red);
 }
 
 .modal {
@@ -217,7 +226,7 @@ td {
   max-width: calc(100vw - 20px);
   max-height: calc(100vh - 20px);
   padding: 20px;
-  background-color: #fff;
+  background-color: var(--white);
 }
 
 .modal-animation {
@@ -228,7 +237,7 @@ td {
 .modal-wrapper h1 {
   font-family: 'Nunito', sans-serif;
   font-size: 2rem;
-  border-bottom: 2px solid #000000;
+  border-bottom: 2px solid var(--lightBlack);
 }
 
 .modal-form {
@@ -256,11 +265,11 @@ td {
   outline: 1px solid #E1E1E1;
 }
 .modal-input:invalid {
-  border-bottom: #EC4E20 2px solid;
+  border-bottom: var(--red) 2px solid;
 }
 
 .modal-input:valid {
-  border-bottom: #21ED83 2px solid;
+  border-bottom: var(--green) 2px solid;
 }
 
 .modal-text {
