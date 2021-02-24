@@ -26,7 +26,7 @@ let query = (request, data) => {
   });
 }
 
-let urlControl = (stockName) =>  ['gasoil', 'essence', 'adblue'].includes(stockName);
+let urlControl = (stockName) => ['gasoil', 'essence', 'adblue'].includes(stockName);
 
 app.get('/api/', (req, res) => res.send('coucou!'));
 app.get('/api/:stock/', async (req, res) => {
@@ -80,7 +80,7 @@ app.delete('/api/:stock/:id', (req, res) => {
   try {
     const stock = req.params.stock;
     const id = req.params.id;
-    if(urlControl(stock) && !isNaN(id)){
+    if (urlControl(stock) && !isNaN(id)) {
       db.query('DELETE FROM ' + stock + '_stock WHERE id = ?', [id], (error, result) => {
         res.json({ result: 'stock deleted' });
       });

@@ -126,6 +126,10 @@ h1 {
   opacity: 100%;
 }
 
+#text {
+  color: red;
+}
+
 .stock-title {
   font-family: 'Merriweather', serif;
   font-size: 2.5em;
