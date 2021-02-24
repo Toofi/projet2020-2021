@@ -38,6 +38,7 @@ The project is a fuel inventory manager. With a left sidebar, we can choose the 
 * nodemon
 * express
 * mysql
+* moment
 
 ### FRONT
 * http-server

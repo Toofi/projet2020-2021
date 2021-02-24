@@ -10,12 +10,12 @@ export let getTemplate = (id, stockId, stockDates, stockLevels) => {
       </div>
       <h1>Historique</h1>
       <table>
-        <tr>
-          <th style="width: 75px;">Id</th>
-          <th>Date</th>
-          <th>Quantité (en litres)</th>
-          <th style="text-align: center;">Actions</th>
-        </tr>
+      <tr>
+      <th style="width: 75px;">Id</th>
+      <th>Date</th>
+      <th>Quantité (en litres)</th>
+      <th style="text-align: center;">Actions</th>
+      </tr>
       ${stockTableTemplate(id, stockDates, stockLevels)}
       </table>
         <div id="modal" class="modal" style="display: none;"></div>
@@ -86,17 +86,18 @@ let getTitle = (stockId) => {
 }
 
 let stockTableTemplate = (id, stockDates, stockLevels) => {
-  let table = [];
+  let table = new Array;
   for (let i = 0; i < stockDates.length && i < stockLevels.length; i++) {
     table = [...table, `
     <tr>
       <td>${id[i]}</td>
       <td>${stockDates[i]}</td>
       <td>${stockLevels[i]}</td>
-      <td style="display: flex;"><button type="button" class="btn btn-upd" id="btn-update" value="${id[i]}">Modifier</button>
-          <button type="button" class="btn btn-del" id="btn-delete" value="${id[i]}">Supprimer</button></td>
+      <td style="display: flex;">
+        <button type="button" class="btn btn-upd" id="btn-update" value="${id[i]}">Modifier</button>
+        <button type="button" class="btn btn-del" id="btn-delete" value="${id[i]}">Supprimer</button></td>
     </tr>`];
   }
-  table = table.reverse(); // (╯°□°）╯︵ ┻━┻
+  table = table.reverse().join(""); // (╯°□°）╯︵ ┻━┻
   return table;
 };
