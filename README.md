@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ec99ed21-539b-4305-b3d4-34b1630d19f3/deploy-status)](https://app.netlify.com/sites/stock-manager-iepsm/deploys)
+
 # Projet 2020-2021
 
 Projet de Quentin Herpoel

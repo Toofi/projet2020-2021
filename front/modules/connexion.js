@@ -1,9 +1,11 @@
 import * as fmd from './format.js';
 import * as diesel from './diesel.js';
 
+const url = 'https://stock-manager-iepsm.herokuapp.com/api/';
+
 export let fetchStock = (stock) => {
   return new Promise((resolve, reject) => {
-    fetch('http://localhost:3000/api/' + stock + '/', { method: 'GET' })
+    fetch(url + stock + '/', { method: 'GET' })
       .then((response) => {
         response.text().then((text) => {
           try {
@@ -29,7 +31,7 @@ export let addStock = (stock, dataFetched) => {
   const stockId = stockKey[stock] || null;
   console.log(stockId)
 
-  fetch('http://localhost:3000/api/' + stock + '/', {
+  fetch(url + stock + '/', {
     method: 'POST',
     headers: {
       'Accept': 'application/json',
@@ -49,7 +51,7 @@ export let addStock = (stock, dataFetched) => {
 export let updateStock = (stock, id) => {
   const input = document.getElementById('modal-input').value;
 
-  fetch('http://localhost:3000/api/' + stock + '/', {
+  fetch(url + stock + '/', {
     method: 'PUT',
     headers: {
       'Accept': 'application/json',
@@ -67,7 +69,7 @@ export let updateStock = (stock, id) => {
 };
 
 export let deleteStock = (stock, id) => {
-  fetch('http://localhost:3000/api/' + stock + '/' + id, {
+  fetch(url + stock + '/' + id, {
     method: 'DELETE'
   })
     .then((result) => {
