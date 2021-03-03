@@ -5,6 +5,7 @@ import * as template from './template.js';
 import * as modal from './modal.js';
 
 export let fetchDiesel = async (stock) => {
+  document.getElementById('content').innerHTML = template.getSpinner();
   let data = await connexion.fetchStock(stock);
   let stockReceived = format.formatData(data);
   document.getElementById('content').innerHTML = template.getTemplate(stockReceived.id, data[0].stock_id, stockReceived.stockDates, stockReceived.stockLevels);
