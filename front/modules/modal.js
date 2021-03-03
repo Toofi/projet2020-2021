@@ -50,6 +50,6 @@ export const exitModal = (element) => {
     setTimeout(() => {
       element.style.display = 'none';
       resolve();
-    }, 500);
+    }, 250);
   })
 };
