@@ -72,6 +72,11 @@ export let getModal = (action) => {
   }
 };
 
+export let getSpinner = () => {
+  return `<div class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>`;
+};
+
+
 let getTitle = (stockId) => {
   switch (stockId) {
     case 1:
